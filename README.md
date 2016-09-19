@@ -82,7 +82,7 @@ Creating an alpha version of your project:
 <br>• core functionality is mostly implemented (but probably buggy!).
 	
 Submitting:
-You will need to submit your alpha code by pushing it to GitHub, as you have done every day. Also add your link to Trello.
+<br>You will need to submit your alpha code by pushing it to GitHub, as you have done every day. Also add your link to Trello.
 
 ##Beta Version
 
@@ -93,7 +93,7 @@ This week, you’ll work towards presenting the beta of your project.
 <br>• You cannot add new functionality after today!
 
 Submitting:
-You will need to submit your beta code by pushing it to GitHub and adding your link to Trello, as usual.
+<br>You will need to submit your beta code by pushing it to GitHub and adding your link to Trello, as usual.
 
 ##Final version
 
@@ -114,7 +114,7 @@ Make sure that you have the correct license in your LICENSE file.
 <br>• Also note that these materials have their own respective licenses. You should at the very least note this fact (again, in the README.md). Make sure you also check the licenses to see if you should make a special statement about the source of the materials.
 
 Submitting:
-You will need to submit your final code by pushing it to GitHub and adding your link to Trello. Make sure you are not missing anything!
+<br>You will need to submit your final code by pushing it to GitHub and adding your link to Trello. Make sure you are not missing anything!
 
 • The README.md
 <br>• The license in LICENSE

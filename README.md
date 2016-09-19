@@ -25,7 +25,7 @@ In this module students work togeher (in pairs of two) on a project. The goal of
 In the project proposal you will explain your problem definition. If you have chosen one of the projects that was presented to you, you are expected to communicate to the mentor/teacher who presented the idea about the requirements of the project.
 
 An important part of the project proposal is understanding the limitations and possibilities of the platform that you will be building your software on. This will result in a proposal document that thoroughly describes the following aspects of your application:
-• What features will be exposed to the end user?
+<br>• What features will be exposed to the end user?
 <br>• What problem will your application solve for the user?
 <br>• It should include a sketch of the interface of your application
 <br>• What data sets and data sources will you need?
@@ -74,10 +74,10 @@ Commit and push all new code to GitHub. Don’t forget to update your README.md 
 ##Alpha Version
 
 git commit and git push every day!
-This week, you’ll work towards presenting an alpha version of your project. 
+<br>This week, you’ll work towards presenting an alpha version of your project. 
 
 Creating an alpha version of your project:
-• Make sure that you have all your data ready this week, 
+<br>• Make sure that you have all your data ready this week, 
 <br>• and that there is basic interaction, 
 <br>• core functionality is mostly implemented (but probably buggy!).
 	
@@ -97,8 +97,9 @@ You will need to submit your beta code by pushing it to GitHub and adding your l
 
 ##Final version
 
-Delivering the finished product:
 This week, you’ll work towards submitting the final code of your project.  
+
+Delivering the finished product:
 • Make sure that you have a working product to submit. If it does not work, it cannot be considered for grading. 
 <br>• This means that every button should work; i.e., there are no loose end visible to the user.
 <br>• Changing the README.md and choosing a license for your work
@@ -113,7 +114,6 @@ Make sure that you have the correct license in your LICENSE file.
 <br>• Also note that these materials have their own respective licenses. You should at the very least note this fact (again, in the README.md). Make sure you also check the licenses to see if you should make a special statement about the source of the materials.
 
 Submitting:
-
 You will need to submit your final code by pushing it to GitHub and adding your link to Trello. Make sure you are not missing anything!
 
 • The README.md

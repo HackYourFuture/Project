@@ -17,7 +17,7 @@ In this module students work togeher (in pairs of two) on a project. The goal of
 <br>6 November – 12-16.00 mentoring
 <br>13 November – 12-13.30 mentoring 14.00 - 16.00 interview and CV training with Tim
 <br>20 November – 12-16.00 mentoring
-<br>27 November – 12-13.30 “” 14.00 - 16.00 interview and CV training with Tim
+<br>27 November – 12-13.30 mentoring 14.00 - 16.00 interview and CV training with Tim
 <br>4 December – 12-16.00 mentoring
 <br>11 December – 12-13.30 mentoring 14.00 - 16.00 Presentations
 

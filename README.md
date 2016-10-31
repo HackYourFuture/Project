@@ -14,12 +14,12 @@ In this module students work togeher (in pairs of two) on a project. The goal of
 
 ##Planning:
 30 October – Introduction and pitch
-<br>6 November – 12-13.30 Start project module 14.00 - 16.00 mentoring
+<br>6 November – 12-16.00 mentoring
 <br>13 November – 12-13.30 mentoring 14.00 - 16.00 interview and CV training with Tim
-<br>20 November – 12-13.30 “” 14.00 - 16.00 mentoring
+<br>20 November – 12-16.00 mentoring
 <br>27 November – 12-13.30 “” 14.00 - 16.00 interview and CV training with Tim
-<br>4 December – 12-13.30 “” 14.00 - 16.00
-<br>11 December – 12-13.30 “” 14.00 - 16.00 Presentations
+<br>4 December – 12-16.00 mentoring
+<br>11 December – 12-13.30 mentoring 14.00 - 16.00 Presentations
 
 ##Project proposal
 

@@ -6,9 +6,9 @@ In this module students work togeher (in pairs of two) on a project. The goal of
 
 ##Deadlines:
 4 November – Project Proposal & Set up a Github repository
-<br>10 September – Design Document
-<br>19 October – Prototype Version
-<br>26 October – Alpha Version
+<br>10 November – Design Document
+<br>19 November – Prototype Version
+<br>26 November – Alpha Version
 <br>3 December – Beta Version
 <br>11 December – Final Version
 

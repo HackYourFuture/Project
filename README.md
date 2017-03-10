@@ -8,7 +8,7 @@ This will be your last module in our program, so make sure that it is a good one
 
 Read before the first Sunday session: [Intro into Scrum](https://github.com/HackYourFuture/Project/tree/master/Week0)
 | Week/<br>Sprint | Sunday before lunch | Sunday after lunch |
-|:----------------|:--------------------|:-------------------|
+|-----------------|---------------------|--------------------|
 |**1**|• Scrum introduction<br>• Introduction projects|• Form teams<br>• Set up Trello<br>• Set up Github organization/team<br>• Go through requirements with Product Owner|
 |**2**|Sprint planning with Product Owner and Scrum Master|Tim and Walla CV, LinkedIn and Dutch workspace workshop|
 |**3**|Sprint lookback and forward planning|Tim and Walla CV, LinkedIn and Dutch workspace workshop|

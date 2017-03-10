@@ -6,16 +6,18 @@ This will be your last module in our program, so make sure that it is a good one
 
 ### Here you can find a planning for the next few weeks:
 
-|Week|first half day|Second part of the day|Readings|Homework|
-|----|--------------|----------------------|--------|--------|
-|0.|-|-|[Read Week 0](https://github.com/HackYourFuture/Project/tree/master/Week0)|-|
-|1.|Scrum introduction, Introduction projects|Make teams, set up Trello, set up Github organization/team, go through requirements with product owner|TBA|TBA|
-|2.|Project groups check in with Product Owner and Scrum Master|Tim and Walla CV, LinkedIn and Dutch workspace workshop|TBA|TBA|
-|3.|Project groups check in with Product Owner and Scrum Master|Tim and Walla CV, LinkedIn and Dutch workspace workshop|TBA|TBA|
-|break|2th of April we have a hackathon planned.|-|-|-|
-|4.|Group 1 checks in with Product Owner and Scrum Master, Group 2 technical support|Group 2 check in with Product Owner and Scrum Master, Group 1 technical support|TBA|TBA|
-|5.|Group 2 check in with Product Owner and Scrum Master, Group 1 technical support|Group 1 checks in with Product Owner and Scrum Master, Group 2 technical support|TBA|TBA|
-|6.|Group 1 checks in with Product Owner and Scrum Master, Group 2 technical support|Group 2 check in with Product Owner and Scrum Master, Group 1 technical support|TBA|TBA|
+Read before the first Sunday session: [Intro into Scrum](https://github.com/HackYourFuture/Project/tree/master/Week0)
+| Week/<br>Sprint | Sunday before lunch | Sunday after lunch |
+|:-------|:--------------------|:-------------------|
+|**1**|• Scrum introduction<br>• Introduction projects|• Form teams<br>• Set up Trello<br>• Set up Github organization/team<br>• Go through requirements with Product Owner|
+|**2**|Sprint planning with Product Owner and Scrum Master|Tim and Walla CV, LinkedIn and Dutch workspace workshop|
+|**3**|Sprint lookback and forward planning|Tim and Walla CV, LinkedIn and Dutch workspace workshop|
+|break|2th of April we have a hackathon planned.|-|
+|**4**|Team 1: sprint lookback and forward planning<br>Team 2: hands-on with technical support|Team 2: sprint lookback and forward planning<br>Team 1: hands-on with technical support|
+|**5**|Team 2: sprint lookback and forward planning<br>Team 1: hands-on with technical support|Team 1: sprint lookback and forward planning<br>Team 2: hands-on with technical support|
+|**6**|Team 1: sprint lookback and forward planning<br>Team 2: hands-on with technical support|Team 2: sprint lookback and forward planning<br>Team 1: hands-on with technical support|
+- At the end of each sprint (except for the first week) a minimal working version of the product under development must be delivered that incorporates the agreed backlog items for that sprint.
+- At the end of the 6th week you are expected to present the final results of your team's work to ...
 
 ### Roles:
 - Product owner: Mattijn and Iris

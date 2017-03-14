@@ -11,10 +11,10 @@ Read before the first Sunday session: [Intro into Scrum](https://github.com/Hack
 | Week/Sprint | Sunday before lunch | Sunday after lunch |
 |-------------|---------------------|--------------------|
 |**1**|• Scrum introduction<br>• Introduction projects|• Form teams<br>• Set up Trello<br>• Set up Github organization/team<br>• Go through requirements with Product Owner|
-|**2**|Sprint planning with Product Owner and Scrum Master|Tim and Walla CV, LinkedIn and Dutch workspace workshop|
+|**2**|15/20 min presentation about design thinking by Suzanne <br>Team 1: Sprint planning with Product Owner and Scrum Master|Team 2: Sprint planning with Product Owner and Scrum Master|
 |**3**|Sprint lookback and forward planning|Tim and Walla CV, LinkedIn and Dutch workspace workshop|
 |break|2th of April we have a hackathon planned.|-|
-|**4**|Team 1: sprint lookback and forward planning<br>Team 2: hands-on with technical support|Team 2: sprint lookback and forward planning<br>Team 1: hands-on with technical support|
+|**4**|Team 1: sprint lookback and forward planning<br>Team 2: hands-on with technical support|Tim and Walla CV, LinkedIn and Dutch workspace workshop|
 |**5**|Team 2: sprint lookback and forward planning<br>Team 1: hands-on with technical support|Team 1: sprint lookback and forward planning<br>Team 2: hands-on with technical support|
 |**6**|Team 1: sprint lookback and forward planning<br>Team 2: hands-on with technical support|Team 2: sprint lookback and forward planning<br>Team 1: hands-on with technical support|
 - At the end of each sprint (except for the first week) a minimal working version of the product under development must be delivered that incorporates the agreed backlog items for that sprint.
@@ -22,9 +22,10 @@ Read before the first Sunday session: [Intro into Scrum](https://github.com/Hack
 
 ### Roles:
 - Product owner: Mattijn and Iris
-- Scrum master: Borislav 
+- Scrum master: Borislav and Andreas
 - Technical support: Jim + any other mentor that you can find
 - CV/interview training: Tim and Walla.
+- UI/UX support Suzanne
 
 ## Module goals:
 - Build a full-stack project, different technologies you’ve been exposed to during the HackYourFuture program.

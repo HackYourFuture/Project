@@ -5,7 +5,7 @@ This will be your last module in our program, so make sure that it is a good one
 >In this module you will work together in teams (of 2 or 3) for six weeks. You will work on a predefined full-stack project, you can choose out of two projects, with predefined functional requirements made and kept save by your **Product Owner**. During weekly **Sprints** you will be guided by a **Scrum Master** that helps you through the process of working in a team with technical requirements and corresponding **User Stories**, with a **Backlog** and developing a **MVP** in six weeks. Phew that is quite a lot. Luckily there of course is also plenty of technical support (half a day on Sunday) and during the week online. Please note that the goal of this project is not per se to build the new Facebook in six weeks but rather to gain experience on working in a team with Scrum while building a full-stack project using all the skills you acquired during our program.
 
 ## Repositories
-For the current project you can find the [API](https://github.com/HackYourFuture/project-api) here and the [frond-end](https://github.com/HackYourFuture/project-webapp-angular) here.
+For the current project you can find the [API](https://github.com/HackYourFuture/project-api) here and the [front-end](https://github.com/HackYourFuture/project-webapp-angular) here.
 
 Read before the first Sunday session: [Intro into Scrum](https://github.com/HackYourFuture/Project/tree/master/Week0)
 

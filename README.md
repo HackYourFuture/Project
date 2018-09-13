@@ -32,6 +32,8 @@ Level 3. (professional responsibilty)
 
 Your bosses are very happy with you, and would like to hear what your ideas are about improving products. Instead of being told what issues to solve, you get to write a small proposal of a new feature for an existing open-source project. Then you will have to divide this new feature into smaller pieces (backlog items/issues) that need to be built. When you have done this, you can start building the feature solo, or together with teammates that are willing to participate on the project. 
 
+***
+
 **Important:**
 
 The rules:

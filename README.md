@@ -12,7 +12,7 @@ Level 1. (limited responsibility)
 
 When you start at a company as an intern or junior developer, you will typically start working on small **issues** on an existing product. The more senior members of the company have defined mostly what issues need to be fixed on an existing product, and will divide the issues to be fixed over different members of the team. You will work solo on an issue, and the more senior people and your colleagues (fellow students) will help you in how to approach the problem that needs to be solved. 
 
-**Goal**: Solve mulitple issues assigned to you with well written quality code. Merge your code with the existing code. 
+**Goal**: Solve mulitple issues assigned to you with well written quality code. Merge your code with the existing project. 
 
 **Project**: Open-source project managed directly by Open-Source Factory. (we have written the code of the project, therefore control the workflow completely)
 

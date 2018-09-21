@@ -1,0 +1,534 @@
+[
+  {
+    "location": {
+      "City": "Peterborough",
+      "Longitude": "52.573921",
+      "Latitude": "-0.250830"
+    },
+    "weather": [
+      {
+        "city": "Peterborough",
+        "dateTime": "2018-9-21 22:05:06",
+        "temperatureC": 12,
+        "feelsLikeC": 10,
+        "description": "Cool.",
+        "pressureMBAR": 1013,
+        "humidityPercent": 67,
+        "windKmh": 19
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Stoke-on-Trent",
+      "Longitude": "53.002666",
+      "Latitude": "-2.179404"
+    },
+    "weather": [
+      {
+        "city": "Stoke-on-Trent",
+        "dateTime": "2018-9-21 22:05:12",
+        "temperatureC": 10,
+        "feelsLikeC": 8,
+        "description": "Light rain. Passing clouds.",
+        "pressureMBAR": 1014,
+        "humidityPercent": 82,
+        "windKmh": 19
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Solihull",
+      "Longitude": "52.412811",
+      "Latitude": "-1.778197"
+    },
+    "weather": [
+      {
+        "city": "Solihull",
+        "dateTime": "2018-9-21 22:05:14",
+        "temperatureC": 12,
+        "feelsLikeC": 10,
+        "description": "Clear.",
+        "pressureMBAR": 1015,
+        "humidityPercent": 77,
+        "windKmh": 15
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Cardiff",
+      "Longitude": "51.481583",
+      "Latitude": "-3.179090"
+    },
+    "weather": [
+      {
+        "city": "Cardiff",
+        "dateTime": "2018-9-21 22:05:16",
+        "temperatureC": 13,
+        "feelsLikeC": 11,
+        "description": "Partly cloudy.",
+        "pressureMBAR": 1017,
+        "humidityPercent": 77,
+        "windKmh": 20
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Eastbourne",
+      "Longitude": "50.768036",
+      "Latitude": "0.290472"
+    },
+    "weather": [
+      {
+        "city": "Eastbourne",
+        "dateTime": "2018-9-21 22:05:18",
+        "temperatureC": 12,
+        "feelsLikeC": 11,
+        "description": "Cool.",
+        "pressureMBAR": 1018,
+        "humidityPercent": 69,
+        "windKmh": 11
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Oxford",
+      "Longitude": "51.752022",
+      "Latitude": "-1.257677"
+    },
+    "weather": [
+      {
+        "city": "Oxford",
+        "dateTime": "2018-9-21 22:05:20",
+        "temperatureC": 12,
+        "feelsLikeC": 10,
+        "description": "Clear.",
+        "pressureMBAR": 1016,
+        "humidityPercent": 77,
+        "windKmh": 17
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "London",
+      "Longitude": "51.509865",
+      "Latitude": "-0.118092"
+    },
+    "weather": [
+      {
+        "city": "London",
+        "dateTime": "2018-9-21 22:05:22",
+        "temperatureC": 13,
+        "feelsLikeC": 11,
+        "description": "Clear.",
+        "pressureMBAR": 1016,
+        "humidityPercent": 67,
+        "windKmh": 20
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Swindon",
+      "Longitude": "51.568535",
+      "Latitude": "-1.772232"
+    },
+    "weather": [
+      {
+        "city": "Swindon",
+        "dateTime": "2018-9-21 22:05:24",
+        "temperatureC": 11,
+        "feelsLikeC": 10,
+        "description": "Passing clouds.",
+        "pressureMBAR": 1016,
+        "humidityPercent": 72,
+        "windKmh": 9
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Northampton",
+      "Longitude": "52.240479",
+      "Latitude": "-0.902656"
+    },
+    "weather": [
+      {
+        "city": "Northampton",
+        "dateTime": "2018-9-21 22:05:28",
+        "temperatureC": 12,
+        "feelsLikeC": 10,
+        "description": "Cool.",
+        "pressureMBAR": 1013,
+        "humidityPercent": 67,
+        "windKmh": 19
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Aberdeen",
+      "Longitude": "57.149651",
+      "Latitude": "-2.099075"
+    },
+    "weather": [
+      {
+        "city": "Aberdeen",
+        "dateTime": "2018-9-21 22:05:37",
+        "temperatureC": 8,
+        "feelsLikeC": 6,
+        "description": "Cool.",
+        "pressureMBAR": 1004,
+        "humidityPercent": 71,
+        "windKmh": 11
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Swansea",
+      "Longitude": "51.621441",
+      "Latitude": "-3.943646"
+    },
+    "weather": [
+      {
+        "city": "Swansea",
+        "dateTime": "2018-9-21 22:05:38",
+        "temperatureC": 14,
+        "feelsLikeC": 11,
+        "description": "Cool.",
+        "pressureMBAR": 1018,
+        "humidityPercent": 71,
+        "windKmh": 26
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Chesterfield",
+      "Longitude": "53.235046",
+      "Latitude": "-1.421629"
+    },
+    "weather": [
+      {
+        "city": "Chesterfield",
+        "dateTime": "2018-9-21 22:05:40",
+        "temperatureC": 10,
+        "feelsLikeC": 8,
+        "description": "Cool.",
+        "pressureMBAR": 1014,
+        "humidityPercent": 84,
+        "windKmh": 13
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Londonderry",
+      "Longitude": "55.006763",
+      "Latitude": "-7.318268"
+    },
+    "weather": [
+      {
+        "city": "Londonderry",
+        "dateTime": "2018-9-21 22:05:42",
+        "temperatureC": 9,
+        "feelsLikeC": 6,
+        "description": "Passing clouds.",
+        "pressureMBAR": 1012,
+        "humidityPercent": 76,
+        "windKmh": 24
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Salisbury",
+      "Longitude": "51.068787",
+      "Latitude": "-1.794472"
+    },
+    "weather": [
+      {
+        "city": "Salisbury",
+        "dateTime": "2018-9-21 22:05:44",
+        "temperatureC": 11,
+        "feelsLikeC": 9,
+        "description": "Cool.",
+        "pressureMBAR": 1017,
+        "humidityPercent": 77,
+        "windKmh": 20
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Weymouth",
+      "Longitude": "50.614429",
+      "Latitude": "-2.457621"
+    },
+    "weather": [
+      {
+        "city": "Weymouth",
+        "dateTime": "2018-9-21 22:05:46",
+        "temperatureC": 14,
+        "feelsLikeC": 12,
+        "description": "Cool.",
+        "pressureMBAR": 1019,
+        "humidityPercent": 68,
+        "windKmh": 35
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Wolverhampton",
+      "Longitude": "52.591370",
+      "Latitude": "-2.110748"
+    },
+    "weather": [
+      {
+        "city": "Wolverhampton",
+        "dateTime": "2018-9-21 22:05:48",
+        "temperatureC": 12,
+        "feelsLikeC": 10,
+        "description": "Clear.",
+        "pressureMBAR": 1015,
+        "humidityPercent": 77,
+        "windKmh": 15
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Preston",
+      "Longitude": "53.765762",
+      "Latitude": "-2.692337"
+    },
+    "weather": [
+      {
+        "city": "Preston",
+        "dateTime": "2018-9-21 22:05:50",
+        "temperatureC": 13,
+        "feelsLikeC": 10,
+        "description": "Passing clouds.",
+        "pressureMBAR": 1012,
+        "humidityPercent": 72,
+        "windKmh": 35
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Bournemouth",
+      "Longitude": "50.720806",
+      "Latitude": "-1.904755"
+    },
+    "weather": [
+      {
+        "city": "Bournemouth",
+        "dateTime": "2018-9-21 22:05:52",
+        "temperatureC": 11,
+        "feelsLikeC": 9,
+        "description": "Clear.",
+        "pressureMBAR": 1018,
+        "humidityPercent": 77,
+        "windKmh": 17
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Doncaster",
+      "Longitude": "53.522820",
+      "Latitude": "-1.128462"
+    },
+    "weather": [
+      {
+        "city": "Doncaster",
+        "dateTime": "2018-9-21 22:05:54",
+        "temperatureC": 10,
+        "feelsLikeC": 8,
+        "description": "Clear.",
+        "pressureMBAR": 1012,
+        "humidityPercent": 82,
+        "windKmh": 17
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Hastings",
+      "Longitude": "50.854259",
+      "Latitude": "0.573453"
+    },
+    "weather": [
+      {
+        "city": "Hastings",
+        "dateTime": "2018-9-21 22:05:58",
+        "temperatureC": 13,
+        "feelsLikeC": 11,
+        "description": "Cool.",
+        "pressureMBAR": 1017,
+        "humidityPercent": 67,
+        "windKmh": 26
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Basildon",
+      "Longitude": "51.572376",
+      "Latitude": "0.470009"
+    },
+    "weather": [
+      {
+        "city": "Basildon",
+        "dateTime": "2018-9-21 22:06:02",
+        "temperatureC": 14,
+        "feelsLikeC": 12,
+        "description": "Clear.",
+        "pressureMBAR": 1015,
+        "humidityPercent": 59,
+        "windKmh": 20
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Belfast",
+      "Longitude": "54.607868",
+      "Latitude": "-5.926437"
+    },
+    "weather": [
+      {
+        "city": "Belfast",
+        "dateTime": "2018-9-21 22:06:06",
+        "temperatureC": 10,
+        "feelsLikeC": 8,
+        "description": "Cool.",
+        "pressureMBAR": 1013,
+        "humidityPercent": 82,
+        "windKmh": 11
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Uckfield",
+      "Longitude": "50.967941",
+      "Latitude": "0.085831"
+    },
+    "weather": [
+      {
+        "city": "Uckfield",
+        "dateTime": "2018-9-21 22:06:08",
+        "temperatureC": 12,
+        "feelsLikeC": 10,
+        "description": "Clear.",
+        "pressureMBAR": 1017,
+        "humidityPercent": 72,
+        "windKmh": 19
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Worthing",
+      "Longitude": "50.825024",
+      "Latitude": "-0.383835"
+    },
+    "weather": [
+      {
+        "city": "Worthing",
+        "dateTime": "2018-9-21 22:06:10",
+        "temperatureC": 14,
+        "feelsLikeC": 12,
+        "description": "Passing clouds.",
+        "pressureMBAR": 1015,
+        "humidityPercent": 63,
+        "windKmh": 20
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Leeds",
+      "Longitude": "53.801277",
+      "Latitude": "-1.548567"
+    },
+    "weather": [
+      {
+        "city": "Leeds",
+        "dateTime": "2018-9-21 22:06:12",
+        "temperatureC": 9,
+        "feelsLikeC": 6,
+        "description": "Passing clouds.",
+        "pressureMBAR": 1011,
+        "humidityPercent": 87,
+        "windKmh": 22
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Kendal",
+      "Longitude": "54.328506",
+      "Latitude": "-2.743870"
+    },
+    "weather": [
+      {
+        "city": "Kendal",
+        "dateTime": "2018-9-21 22:06:14",
+        "temperatureC": 9,
+        "feelsLikeC": 8,
+        "description": "Cool.",
+        "pressureMBAR": 1011,
+        "humidityPercent": 76,
+        "windKmh": 11
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Plymouth",
+      "Longitude": "50.376289",
+      "Latitude": "-4.143841"
+    },
+    "weather": [
+      {
+        "city": "Plymouth",
+        "dateTime": "2018-9-21 22:06:19",
+        "temperatureC": 13,
+        "feelsLikeC": 12,
+        "description": "Clear.",
+        "pressureMBAR": 1019,
+        "humidityPercent": 77,
+        "windKmh": 11
+      }
+    ]
+  },
+  {
+    "location": {
+      "City": "Inverness",
+      "Longitude": "57.477772",
+      "Latitude": "-4.224721"
+    },
+    "weather": [
+      {
+        "city": "Inverness",
+        "dateTime": "2018-9-21 22:06:25",
+        "temperatureC": 8,
+        "feelsLikeC": 4,
+        "description": "Sprinkles. Passing clouds.",
+        "pressureMBAR": 1004,
+        "humidityPercent": 87,
+        "windKmh": 33
+      }
+    ]
+  }
+]

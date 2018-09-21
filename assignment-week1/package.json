@@ -1,0 +1,17 @@
+{
+  "name": "assignment-week1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "UKWeather.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "curl": "^0.1.4",
+    "jquery": "^3.3.1",
+    "jsdom": "^12.0.0",
+    "system-sleep": "^1.3.6"
+  }
+}

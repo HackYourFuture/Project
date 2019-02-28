@@ -1,4 +1,4 @@
-### Project
+# Project
 
 Welcome to the Project module! Congratulations on making it this far!
 

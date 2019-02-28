@@ -50,7 +50,7 @@ Also create a `.gitignore` file. For now just type in `node_modules` as the sing
 
 4. The fourth and last step is to create a remote repository. Create one on GitHub and
 
-### Our Node.js application base
+### Creating our Node.js application base
 
 Now that we've got the basics out of the way, we can get started on development! We'll get started with writing our server-side code first.
 
@@ -129,27 +129,27 @@ app.get("/", function requestHandler(request, response) {
 });
 ```
 
-Restart your server with `node server/index.js`. Then visit the following two different urls: `http://localhost:8080/` and `http://localhost:8080/givemesomething`. Only the root page (index) will show us the response message. All other requests will end up with 404 [HTTP status](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes).
+Restart your server with `node server/index.js`. Then visit the following two different urls: `http://localhost:8080/` and `http://localhost:8080/randomnameforroute`. Only the root page (index) will show us the response message. All other requests will end up with 404 [HTTP status code](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes).
 
 > **Note** - in order to avoid restarting server manually every time we change the source code we can use [nodemon](https://nodemon.io/) package. You can install it globally and use it instead of the `node` command when executing a Node.js file.
 > `npm install --global nodemon`
 > Now you can use `nodemon server/index.js` to run and watch your Node.js files.
 
-4. Now we can "teach" our server to handle different urls and [HTTP methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods) which together construct routes.
+4. Now we can "teach" our server to handle different URLs and [HTTP methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods) which together construct routes.
 
-> _Routing_ refers to determining how an application responds to a client request to a particular endpoint. which is a URI (or path) and a specific HTTP request method (GET, POST, and so on). Each route can have one or more handler functions, which are executed when the route is matched.
+> _Routing_ refers to determining how an application responds to a client request to a particular endpoint (like `app.get("/")`). Each route can have one or more handler functions (that are callbacks), which are executed when the route is matched. For example, if a user goes to `http://somewebsite.com/` then the GET endpoint for `/` will be triggered and the route (all the request handler functions inside) will be executed.
+
+```js
+app.get("/", function requestHandler(request, response) {
+  response.send("Going to http://somewebsite.com/ and this is the response!");
+});
+```
 
 Route definition takes the following structure:
 
 ```js
 router.METHOD(PATH, HANDLER, [HANDLER2, [HANDLER3,...]])
 ```
-
-> **Note** - app implements route functionality itself, that's why it is possible to create routes like this:
->
-> ```js
-> app.get("/data", function(req, res) {});
-> ```
 
 Routers can be nested. You can define router as a handler:
 
@@ -171,7 +171,7 @@ app.get("/", function(req, res) {
 });
 ```
 
-Code above will create 3 routes which can be triggered. Any other route will generate 404 error.
+The code above will create 3 routes which can be triggered by the user that visits them from the browser. Any other route will generate 404 error (this is automatic behavior by Express).
 
 ```
 GET /api
@@ -179,8 +179,8 @@ POST /api/add
 GET /
 ```
 
-> **Note 1** - order is important. Routes defined first in code will trigger when match
-> **Note 2** - once route handler was triggered, it will not proceed to another matching route handler, unless you use **next()** function. Next function is being provided as 3rd argument to handler functions.
+> **Note 1** - The order is important. Routes defined first in the server-side code will trigger and be executed when it's a match.
+> **Note 2** - Once a route handler is triggered, it will not proceed to another matching route handler, unless you use **next()** function. Next function is being provided as 3rd argument to handler functions, but it is optional and can therefore be left if not needed.
 >
 > ```js
 > app.get("*", function logGetRequests(req, res, next) {
@@ -190,7 +190,11 @@ GET /
 > });
 > ```
 >
-> **Note 3** - to understand better how express works and order of execution of your handlers it's advised to read more about [writing](https://expressjs.com/en/guide/writing-middleware.html) and [using](https://expressjs.com/en/guide/using-middleware.html) middleware functions.
+> **Note 3** - to understand better how Express works and the order of execution of your handlers it's advised to read more about [writing](https://expressjs.com/en/guide/writing-middleware.html) and [using](https://expressjs.com/en/guide/using-middleware.html) middleware functions.
+
+> **Note** - A middleware is a function that modifies the `req` or `request` object with
+
+### Recap Node base app
 
 Let's recap how our `server/index.js` file content might look like:
 
@@ -223,12 +227,22 @@ app.get("/", function(req, res) {
 app.listen(8080);
 ```
 
-If you open `http://localhost:8080/` url in brower, you will see "index page, triggered by GET /" message in browser and `someone made a request with GET method` message in terminal. You can also access following routes:
+If you open the `http://localhost:8080/` URL in the browser, you will see the `index page, triggered by GET /` message in the browser and `someone made a request with GET method` message in the CLI (which is where server-side messages are displayed).
 
-- `GET` `http://localhost:8080/api/`
-- `POST` `http://localhost:8080/api/add`
+You can also access following routes:
 
-### Splitting your application code
+- GET `http://localhost:8080/api/`
+- POST `http://localhost:8080/api/add`
+
+### Creating our base React app
+
+There are multiple ways of setting up a React environment, but for this project we'll be using `create-react-app`. Make sure you have installed it to your machine globally.
+
+> **Note**: You can install `create-react-app` globally by using the following command in the CLI: `npm install -g create-react-app`
+
+Make sure you are in the root of your project folder. Then execute the following command through the CLI: `create-react-app client`. This will create a `client/` folder in your project, including a basic React setup.
+
+### Splitting your application code: folder organisation
 
 Although we can write all code in one file, it eventually will become big, complex and unclear.
 
@@ -254,12 +268,12 @@ app.listen(8080); // We can use that "app" functionality now in this file to sta
 
 ```js
 // Path: server/app.js
-// Purpose of file: To use Express to do our routing
-const express = require("express");
+// Purpose of file: To initialize Express and create basic endpoints
+const express = require("express"); // Loading in Express functionality
 
-const apiRouter = require("./api");
+const apiRouter = require("./api"); // Loading in our custom index.js from /api (it will automatically look for index.js)
 
-const app = express();
+const app = express(); // Creating an Express instance
 
 app.get("*", function logGetRequests(req, res, next) {
   console.log("someone made a request with GET method");
@@ -276,7 +290,8 @@ module.exports = app;
 ```
 
 ```js
-// server/api/index.js
+// Path: server/api/index.js
+// Purpose of file: To contain all our routes and necessary logic
 const apiRouter = require("express").Router();
 
 apiRouter.get("/", function(req, res) {
@@ -290,11 +305,13 @@ apiRouter.post("/add", function(req, res) {
 module.exports = apiRouter;
 ```
 
-### Serving static assets
+### Serving static files
 
-Express provides [special middleware](https://expressjs.com/en/starter/static-files.html) which helps to serve static assets requested by client.
+When using Express, it needs to know in which folder you'll keep your static files (also known as assets).
 
-```javascript
+Express provides [special middleware](https://expressjs.com/en/starter/static-files.html) which helps to serve static files requested by the client.
+
+```js
 express.static(root, [options]);
 ```
 
@@ -303,7 +320,7 @@ For example, if we create `public/index.html` and `public/style.css` files we wi
 
 Add this middleware before any route in `server/app.js`
 
-```javascript
+```js
 // server/app.js
 app.use(express.static(path.join(__dirname, "public")));
 ```
@@ -340,8 +357,7 @@ h1 {
 }
 ```
 
-Now, accessing `http://localhost:8080/` will trigger static middleware to serve `public/index.html` (if index.html file is available it gets served automatically) file which will request `http://localhost:8080/style.css` (check network tab) and get content of
-`public/style.css`.
+Now, accessing `http://localhost:8080/` will trigger static middleware to serve `public/index.html` (if index.html file is available it gets served automatically) file which will request `http://localhost:8080/style.css` (check the Network tab) and get content of `public/style.css`.
 
 Note that our `app.get('/', ...);` route is not triggered anymore. Reason for that is, if express.static could find a file by requested name, next() function will NOT be called. If there is no such file, next() function will be executed. You can try it by accessing not existing asset, like `http://localhost:8080/app.js` and changing `app.get('/', ...);` to `app.get('*', ...);` for example. You will see "index page, triggered by GET /" message in browser.
 

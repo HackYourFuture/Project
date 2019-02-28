@@ -23,20 +23,21 @@ Communication skills:
 - How to `communicate effectively` with team members
 - `Keeping track` of the project progress
 - Knowing if you `understand what's asked` of you
+- How to `communicate with non-developers` about what you're doing
 - Learning how to be `solutions-oriented`
 
 ## Project Outline
 
 This module will consist of 5 weeks immersed into the web developer life. Each week you'll working towards completing your full-stack application. In the following we'll discuss what you'll be doing week by week:
 
-| Week # | Topic                                                    | Homeworks                                                                                                              |
-| ------ | -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| 1.     | Basic project setup: frontend & backend                  | [Development Homework](documentation/project-weeks/week1.md), [Communication Homework](documentation/guide-checkin.md) |
-| 2.     | API edge casing, validation and error handling           | [Development Homework](), Communication Homework                                                                       |
-| 3.     | Web scraping, Apify                                      | [Development Homework](), Communication Homework                                                                       |
-| 4.     | Working on features I                                    | [Development Homework](), Communication Homework                                                                       |
-| 5.     | Working on features II, Bug fixes, writing documentation | [Development Homework](), Communication Homework                                                                       |
-| 6.     | Project Presentation + Graduation                        | [How to present](documentation/how-to-present.md)                                                                      |
+| Week # | Topic                                                    | Homeworks                                                                                                                       |
+| ------ | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| 1.     | Basic project setup: frontend & backend                  | [Development Homework](documentation/project-weeks/week1.md), [Communication Homework: Checkin](documentation/guide-checkin.md) |
+| 2.     | API edge casing, validation and error handling           | [Development Homework](documentation/project-weeks/week2.md), Checkin                                                           |
+| 3.     | Web scraping, Apify                                      | [Development Homework](documentation/project-weeks/week3.md), Checkin                                                           |
+| 4.     | Working on features I                                    | [Development Homework](documentation/project-weeks/week4.md), Checkin                                                           |
+| 5.     | Working on features II, Bug fixes, writing documentation | [Development Homework](documentation/project-weeks/week5.md), Checkin                                                           |
+| 6.     | Project Presentation + Graduation                        | [How to present](documentation/how-to-present.md)                                                                               |
 
 ## Getting Started
 
@@ -50,6 +51,6 @@ Click on the following [link](/projects) to see examples of their projects.
 
 ## After Project
 
-Congratulations for finishing the Project module! You may call yourself a worthy junior web developer now.
+Congratulations for finishing the Project module! You may call yourself a **worthy** junior web developer now. You are also now part of the HackYourFuture Alumni Network.
 
 What now? Simple! Just go [here]().

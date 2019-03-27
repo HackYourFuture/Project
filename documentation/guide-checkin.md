@@ -11,9 +11,8 @@ This weekly checkin will serve a similar purpose: by checking in with your proje
 A big part of software development is **knowing what to do** and **having a plan of action**. Thus, I’d like you to prepare a short document you’ll be presenting. You have to answer the following questions:
 
 - What is required of me this week? _Define the main task and divide it into smaller tasks_
+- In what smaller tasks can I divide the main task and what to do to achieve each task? _Write a basic plan of action for each task_
 - How much time do I estimate it will take to finish each task? _Estimate a time and then triple it to be more realistic_
-- What do I need to do to achieve each task? _Write a basic plan of action for each task_
-- How will I track my progress? _Use a tool like Google Sheets or Trello to keep track of the progress for each task_
 - What is the one biggest obstacle I’m facing in my work right now? How will I overcome this? _Think outside of the box and try to come up with (easy) solutions to the obstacle already_
 
 _Example: Mohammed likes to make lists. He does this to keep overview. Using a tool like [Trello](https://www.trello.com) he puts every big task in a separate board. Of course, he makes sure he understand exactly what's required of him. When he doesn't, he asks for help._

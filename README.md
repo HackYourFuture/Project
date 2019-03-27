@@ -30,18 +30,19 @@ Communication skills:
 
 This module will consist of 5 weeks immersed into the web developer life. Each week you'll working towards completing your full-stack application. In the following we'll discuss what you'll be doing week by week:
 
-| Week # | Topic                                                    | Homeworks                                                                                                                       |
-| ------ | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| 1.     | Basic project setup: frontend & backend                  | [Development Homework](documentation/project-weeks/week1.md), [Communication Homework: Checkin](documentation/guide-checkin.md) |
-| 2.     | API edge casing, validation and error handling           | [Development Homework](documentation/project-weeks/week2.md), Checkin                                                           |
-| 3.     | Web scraping, Apify                                      | [Development Homework](documentation/project-weeks/week3.md), Checkin                                                           |
-| 4.     | Working on features I                                    | [Development Homework](documentation/project-weeks/week4.md), Checkin                                                           |
-| 5.     | Working on features II, Bug fixes, writing documentation | [Development Homework](documentation/project-weeks/week5.md), Checkin                                                           |
-| 6.     | Project Presentation + Graduation                        | [How to present](documentation/how-to-present.md)                                                                               |
+| Week # | Topic                                          | Homeworks                                                                                                                       |
+| ------ | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| 1.     | Basic project setup: frontend & backend        | [Development Homework](documentation/project-weeks/week1.md), [Communication Homework: Checkin](documentation/guide-checkin.md) |
+| 2.     | API edge casing, validation and error handling | [Development Homework](documentation/project-weeks/week2.md), Checkin                                                           |
+| 3.     | Recap and introduction into web scraping       | [Development Homework](documentation/project-weeks/week3.md), Checkin                                                           |
+| 4.     | Web scraping, working on features I            | [Development Homework](documentation/project-weeks/week4.md), Checkin                                                           |
+| 5.     | Working on features II                         | [Development Homework](documentation/project-weeks/week5.md), Checkin                                                           |
+| 6.     | Bug fixes, writing documentation               | [Development Homework](documentation/project-weeks/week5.md), Checkin                                                           |
+| 7.     | Project Presentation + Graduation              | [How to present](documentation/how-to-present.md)                                                                               |
 
 ## Getting Started
 
-If you are just getting started with the Project module you should read the [following](doucmentation/guide-newproject.md) to setup your basic folder structure. **Please do this before your first Project on Sunday!**
+If you are just getting started with the Project module you should read the [following](doucmentation/guide-newproject.md) to setup your basic folder structure. **Please do this before your first class on Sunday!**
 
 ## Learn By Example! Previous Projects
 

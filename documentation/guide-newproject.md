@@ -42,13 +42,13 @@ Using the CLI, type in:
 
 You'll get a list of questions about what your application will be about. After answering those it'll create a **package.json** file in your folder.
 
-3. The third step is to create the other files and folders from the list.
+3. The third step is to create the other files and folders (excluding `client/` for now) from the list.
 
-Using the CLI or right-mouse click create the `client/` and `server/` folders. For the CLI you need to type `mkdir client`, and with right-mouse click you can `Create a new folder`.
+Using the CLI or right-mouse to create a `server/` folder.
 
 Also create a `.gitignore` file. For now just type in `node_modules` as the single folder to be ignored by GIT.
 
-4. The fourth and last step is to create a remote repository. Create one on GitHub and
+4. The fourth and last step is to create a remote repository. Create one on GitHub and link it to your local machine. Push all the files you have so far, and make sure you give it a meaningful commit message (like, `created basic project folder setup`).
 
 ### Creating our Node.js application base
 
@@ -117,7 +117,9 @@ Replace
 
 ```js
 app.use(function requestHandler(request, response) {
-  response.send("Hi everybody! Now it is an Express server");
+  response.send(
+    "Hi everybody! This response gets sent with every client request"
+  );
 });
 ```
 
@@ -125,7 +127,9 @@ with
 
 ```js
 app.get("/", function requestHandler(request, response) {
-  response.send("Hi everybody! Now it is expressjs server");
+  response.send(
+    "Hi everybody! This response only gets send when the client is at the root (/) of the page"
+  );
 });
 ```
 
@@ -211,11 +215,11 @@ app.get("*", function logGetRequests(req, res, next) {
 });
 
 apiRouter.get("/", function(req, res) {
-  res.send("triggered by GET /api/ path");
+  res.send("triggered by GET /api/");
 });
 
 apiRouter.post("/add", function(req, res) {
-  res.send("triggered by POST /api/add path");
+  res.send("triggered by POST /api/add");
 });
 
 app.use("/api", apiRouter);
@@ -240,7 +244,11 @@ There are multiple ways of setting up a React environment, but for this project 
 
 > **Note**: You can install `create-react-app` globally by using the following command in the CLI: `npm install -g create-react-app`
 
-Make sure you are in the root of your project folder. Then execute the following command through the CLI: `create-react-app client`. This will create a `client/` folder in your project, including a basic React setup.
+Make sure you are in the root of your project folder. Then execute the following command through the CLI: `create-react-app client`. This will create a `client/` folder in your project, including a basic React setup inside.
+
+This is good for now, as we'll be working on the frontend during the upcoming weeks.
+
+P.S This might be a good moment for another GIT commit. Make the message meaningful!
 
 ### Splitting your application code: folder organisation
 
@@ -248,7 +256,7 @@ Although we can write all code in one file, it eventually will become big, compl
 
 To get a better overview we can **split** the code into seperate smaller files. Each file will then be responsible for providing the application a different functionality.
 
-We will change folder structure of `server/` into the following:
+We will change the folder structure of `server/` into the following:
 
 ```
 server/
@@ -471,3 +479,9 @@ Combination of these two sections will run eslint on all staged files, whenever 
 If eslint finds errors, commit process will be aborted. In that case you would need to fix problems first and commit again.
 
 This setup will allow you work in team with more confidence, have same code linting and formatting for every team member, and won't allow "bad code" to go to remote repo.
+
+## Conclusion
+
+Finished? Be proud of yourself, because you just setup a basic project folder! You are now completely able to start any web application project using Node.js in the backend and React in the frontend.
+
+Be sure to commit everything you did to your remote repository. When you're finished put a link to it in your class Slack channel, so the teacher can see it.

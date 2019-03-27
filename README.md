@@ -2,7 +2,7 @@
 
 Welcome to the Project module! Congratulations on making it this far!
 
-In the upcoming 6 weeks we'll be delving deeper into the specifics of what it means to work as a web developer in a real tech company. Starting today you are hired to work for HackYourFuture's secret company **Open Source Factory**, welcome to the team!
+In the upcoming 7 weeks we'll be delving deeper into the specifics of what it means to work as a web developer in a real tech company. Starting today you are hired to work for HackYourFuture's secret company **Open Source Factory**, welcome to the team!
 
 Your job is simple (but not easy): produce a a fully functioning full-stack application that makes the lives of other people in the world a little better.
 
@@ -28,7 +28,7 @@ Communication skills:
 
 ## Project Outline
 
-This module will consist of 5 weeks immersed into the web developer life. Each week you'll working towards completing your full-stack application. In the following we'll discuss what you'll be doing week by week:
+This module will consist of 7 weeks immersed into the web developer life. Each week you'll working towards completing your full-stack application. In the following we'll discuss what you'll be doing week by week:
 
 | Week # | Topic                                          | Homeworks                                                                                                                       |
 | ------ | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |

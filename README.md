@@ -30,15 +30,15 @@ Communication skills:
 
 This module will consist of 7 weeks immersed into the web developer life. Each week you'll working towards completing your full-stack application. In the following we'll discuss what you'll be doing week by week:
 
-| Week # | Topic                                          | Homeworks                                                                                                                       |
-| ------ | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| 1.     | Basic project setup: frontend & backend        | [Development Homework](documentation/project-weeks/week1.md), [Communication Homework: Checkin](documentation/guide-checkin.md) |
-| 2.     | API edge casing, validation and error handling | [Development Homework](documentation/project-weeks/week2.md), Checkin                                                           |
-| 3.     | Recap and introduction into web scraping       | [Development Homework](documentation/project-weeks/week3.md), Checkin                                                           |
-| 4.     | Web scraping, working on features I            | [Development Homework](documentation/project-weeks/week4.md), Checkin                                                           |
-| 5.     | Working on features II                         | [Development Homework](documentation/project-weeks/week5.md), Checkin                                                           |
-| 6.     | Bug fixes, writing documentation               | [Development Homework](documentation/project-weeks/week5.md), Checkin                                                           |
-| 7.     | Project Presentation + Graduation              | [How to present](documentation/how-to-present.md)                                                                               |
+| Week # | Topic                                                   | Homeworks                                                                                                                       |
+| ------ | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| 1.     | Introducing Project, CRUD server                        | [Development Homework](documentation/project-weeks/week1.md), [Communication Homework: Checkin](documentation/guide-checkin.md) |
+| 2.     | Feature: Data upload, MySQL connection, Form validation | [Development Homework](documentation/project-weeks/week2.md), Checkin                                                           |
+| 3.     | Feature: Search (filter, order and pagination)          | [Development Homework](documentation/project-weeks/week3.md), Checkin                                                           |
+| 4.     | Recap, Introduction web scraping                        | [Development Homework](documentation/project-weeks/week4.md), Checkin                                                           |
+| 5.     | Group: Working on features I                            | [Development Homework](documentation/project-weeks/week5.md), Checkin                                                           |
+| 6.     | Group: Work on features II, Merging branches            | [Development Homework](documentation/project-weeks/week5.md), Checkin                                                           |
+| 7.     | Project Presentation + Graduation                       | [How to present](documentation/how-to-present.md)                                                                               |
 
 ## Getting Started
 
@@ -50,8 +50,8 @@ There have been other classes before who have been through the same process.
 
 Click on the following [link](/projects) to see examples of their projects.
 
-## After Project
+<!-- ## After Project
 
 Congratulations for finishing the Project module! You may call yourself a **worthy** junior web developer now. You are also now part of the HackYourFuture Alumni Network.
 
-What now? Simple! Just go [here]().
+What now? Simple! Just go [here](). -->

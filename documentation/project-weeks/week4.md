@@ -8,16 +8,17 @@ By doing this week's homework you'll be learn how to:
 
 - Create your own `scraping` script
 - Extract data from any website
-- Put extracted data
+- Put the extracted data in your MySQL database
 
 ## Web Scraping
 
-The main task is to create a scraper app (separate nodejs script).
+The main task is to create a scraper app (separate Node.js script).
+
 It will extract data from other web applications (websites), so that we can use it in our own application (it will be part of the `/contribute` feature).
 
 The result of our scraper should be **housing data** in a specified format: a JSON array of houses. Each key in a house object should align with the data model we have defined: required fields, data types and values.
 
-Ideally, results should be hosted and accessible by an URL.
+Ideally, results should be hosted and accessible through a URL.
 
 To build a scraper you can use one of 3 options:
 

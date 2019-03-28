@@ -11,8 +11,8 @@ The group will be split in groups of two. Each pair will work on certain feature
 - Contribute page (backend)
 - Contribute page (frontend)
 - Search through filters
-- Currency converter
-- CRON job automation
-- Charts
-- Search map view
-- Report table + email
+- Currency converter (**Optional**)
+- CRON job automation (**Optional**)
+- Charts (**Optional**)
+- Search map view (**Optional**)
+- Report table + email (**Optional**)

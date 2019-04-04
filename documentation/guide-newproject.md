@@ -283,12 +283,12 @@ const apiRouter = require("./api"); // Loading in our custom index.js from /api 
 
 const app = express(); // Creating an Express instance
 
-app.get("*", function logGetRequests(req, res, next) {
-  console.log("someone made a request with GET method");
+app.uyse("*", function logGetRequests(req, res, next) {
+  console.log(`someone made a request with ${req.method} method`);
   next();
 });
 
-app.get("/api", apiRouter);
+app.use("/api", apiRouter);
 
 app.get("/", function(req, res) {
   res.send("index page, triggered by GET /");

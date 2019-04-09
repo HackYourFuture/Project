@@ -139,7 +139,7 @@ string
 
 list of urls to images, separated with comma 
 
-<url1>,<url2>,<url3> 
+`<url1>,<url2>,<url3> `
 
 
 `sold` 

@@ -41,9 +41,7 @@ required
 `location_country` 
 
 string 
-
 country name 
-
 required 
 
 

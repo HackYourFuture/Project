@@ -17,65 +17,111 @@ We'll be using an instance of MySQL.
 1. Using the CLI or GUI, create a new database called `housesDatabase`
 2. Inside the database, create a new table with the following structure:
 
-`id`
-primary key
-`link`
-string
-url to original offer
-unique key
-`market_date`
-date
-date when offer was added to website or data of adding it to database
-required
-`location_country`
-string
-country name
-required
-`location_city`
-string
-city name
-required
-`location_address`
-string
-house address
-`location_coordinates_lat`
-float
-latitude
-`location_coordinates_lng`
-float
-longitude
+`id` 
 
-- - either address or lat+lng is required
-    `size_living_area`
-    int
-    living area in square meters
-    required
-    `size_rooms`
-    int
-    total number of rooms
-    required
-    `price_value`
-    float
-    price of property
-    float number
-    required
-    `price_currency`
-    string
-    currenct code, 3 characters
-    required
-    `description`
-    string
-    free text
-    `title`
-    string
-    free text
-    `images`
-    string
-    list of urls to images, separated with comma
-    <url1>,<url2>,<url3>
-    `sold`
-    int
-    1/0
+primary key
+
+
+`link` 
+
+string  
+url to original offer  
+unique key  
+
+
+`market_date` 
+
+date  
+date when offer was added to website or data of adding it to database  
+required  
+
+
+`location_country` 
+
+string 
+country name 
+required 
+
+
+`location_city` 
+
+string  
+city name  
+required  
+
+
+`location_address` 
+
+string  
+house address  
+
+
+`location_coordinates_lat` 
+
+float  
+latitude  
+
+
+`location_coordinates_lng` 
+
+float  
+longitude  
+either address or lat+lng is required 
+
+
+`size_living_area` 
+
+int  
+living area in square meters  
+required  
+
+
+`size_rooms` 
+
+int  
+total number of rooms  
+required  
+
+
+`price_value` 
+
+float  
+price of property  
+float number  
+required  
+
+
+`price_currency` 
+
+string  
+currenct code, 3 characters  
+required  
+
+
+`description` 
+
+string  
+free text  
+
+
+`title` 
+
+string  
+free text  
+
+
+`images` 
+
+string  
+list of urls to images, separated with comma  
+`<url1>,<url2>,<url3>`   
+
+
+`sold` 
+
+int  
+1/0  
+
 
 ## Making a change on the server
 

@@ -25,9 +25,7 @@ primary key
 `link` 
 
 string 
-
 url to original offer 
-
 unique key 
 
 

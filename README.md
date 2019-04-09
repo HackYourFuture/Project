@@ -42,7 +42,7 @@ This module will consist of 7 weeks immersed into the web developer life. Each w
 
 ## Getting Started
 
-If you are just getting started with the Project module you should read the [following](doucmentation/guide-newproject.md) to setup your basic folder structure. **Please do this before your first class on Sunday!**
+If you are just getting started with the Project module you should read the [following](documentation/guide-newproject.md) to setup your basic folder structure. **Please do this before your first class on Sunday!**
 
 ## Learn By Example! Previous Projects
 

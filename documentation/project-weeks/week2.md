@@ -24,18 +24,16 @@ primary key
 
 `link` 
 
-string 
-url to original offer 
-unique key 
+string  
+url to original offer  
+unique key  
 
 
 `market_date` 
 
-date 
-
-date when offer was added to website or data of adding it to database 
-
-required 
+date  
+date when offer was added to website or data of adding it to database  
+required  
 
 
 `location_country` 

@@ -51,102 +51,83 @@ required
 
 `location_city` 
 
-string 
-
-city name 
-
-required 
+string  
+city name  
+required  
 
 
 `location_address` 
 
-string 
-
-house address 
+string  
+house address  
 
 
 `location_coordinates_lat` 
 
-float 
-
-latitude 
+float  
+latitude  
 
 
 `location_coordinates_lng` 
 
-float 
-
-longitude 
-
-either address or lat+lng is required
+float  
+longitude  
+either address or lat+lng is required 
 
 
 `size_living_area` 
 
-int 
-
-living area in square meters 
-
-required 
+int  
+living area in square meters  
+required  
 
 
 `size_rooms` 
 
-int 
-
-total number of rooms 
-
-required 
+int  
+total number of rooms  
+required  
 
 
 `price_value` 
 
-float 
-
-price of property 
-
-float number 
-
-required 
+float  
+price of property  
+float number  
+required  
 
 
 `price_currency` 
 
-string 
-
-currenct code, 3 characters 
-
-required 
+string  
+currenct code, 3 characters  
+required  
 
 
 `description` 
 
-string 
-
-free text 
+string  
+free text  
 
 
 `title` 
 
-string 
-
-free text 
+string  
+free text  
 
 
 `images` 
 
-string 
-
-list of urls to images, separated with comma 
-
-`<url1>,<url2>,<url3> `
+string  
+list of urls to images, separated with comma  
+`<url1>,<url2>,<url3>`   
 
 
 `sold` 
 
-int 
+int  
+1/0  
 
-1/0 
 
 ## Making a change on the server
 

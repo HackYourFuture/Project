@@ -1,6 +1,6 @@
 ## Outline
 
-In the first week you'll be setting up the foundation of any software project. Using the [tech stack](https://svsg.co/how-to-choose-your-tech-stack/) you've learned about in this program (on the frontend React and on the backend Node.js/MySQL), you'll set up the following basic folder structure:
+In the first week you'll be setting up the foundation of any software project. Using the [tech stack](https://svsg.co/how-to-choose-your-tech-stack/) you've learned about in this program (React on the front-end and Node.js/MySQL on the back-end), you'll set up the following basic folder structure:
 
 ```
 client/
@@ -26,7 +26,7 @@ package.json
 
 `class<YOUR_CLASS_NUMBER>Project`
 
-Then, using the CLI, navigate to that folder and start tracking any files changes with GIT:
+Then, using the CLI, navigate to that folder and start tracking any file changes with GIT:
 
 `git init`
 
@@ -41,10 +41,11 @@ Using the CLI, type in:
 `npm init`
 
 You'll get a list of questions about what your application will be about. After answering those it'll create a **package.json** file in your folder.
+(Or type in `npm init -y` for generating it without having it ask any questions!)
 
 3. The third step is to create the other files and folders (excluding `client/` for now) from the list.
 
-Using the CLI or right-mouse to create a `server/` folder.
+Use the CLI or right-click to create a `server/` folder.
 
 Also create a `.gitignore` file. For now just type in `node_modules` as the single folder to be ignored by GIT.
 
@@ -52,7 +53,7 @@ Also create a `.gitignore` file. For now just type in `node_modules` as the sing
 
 ### Creating our Node.js application base
 
-Now that we've got the basics out of the way, we can get started on development! We'll get started with writing our server-side code first.
+Now that we've got the basics out of the way, we can get started with development! We'll get started with writing our server-side code first.
 
 1. Inside the `server/` folder, create a file called `index.js`. This is where we will write the code to create our server.
 
@@ -60,10 +61,10 @@ Native to Node.js there's a package we can use to do this: the `http` package. W
 
 ```js
 // Filename: index.js
-const http = require("http"); // This loads the http functionality in
+var http = require("http"); // This loads the http functionality in
 
-const server = http.createServer(function requestHandler(request, response) {
-  response.writeHead(200); // This gives the response a header (metadata), which is status code 200: OK
+var server = http.createServer(function requestHandler(request, response) {
+  response.writeHead(200); // This gives the response a header, which is status code 200: OK
   response.end("Hi everybody!"); // This sends a message with the response to the client
 });
 
@@ -111,11 +112,11 @@ app.listen(8080, () =>
 
 From the root of your folder run the command `node server/index.js` to start the http-server again.
 
-Now we should see exactly same result with slightly different message: 'Hi everybody! Now it is an Express server' in the browser.
+Now we should see exactly the same result with a slightly different message: 'Hi everybody! Now it is an Express server' in the browser.
 
 > Keep in mind that it's still an HTTP server, just wrapped up in code that makes it easier for us to write server code.
 
-3. Let's change the code to send the message to everyone who access our page from the root route, `'/'`. This will be `http://localhost:8080/`. and generate 404 error for all other requests.
+3. Let's change the code to send the message to everyone who accesses our page from the root route, `'/'`. This will be `http://localhost:8080/` and generate 404 error for all other requests.
 
 Replace
 
@@ -139,8 +140,8 @@ app.get("/", function requestHandler(request, response) {
 
 Restart your server with `node server/index.js`. Then visit the following two different urls: `http://localhost:8080/` and `http://localhost:8080/randomnameforroute`. Only the root page (index) will show us the response message. All other requests will end up with 404 [HTTP status code](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes).
 
-> **Note** - in order to avoid restarting server manually every time we change the source code we can use [nodemon](https://nodemon.io/) package. You can install it globally and use it instead of the `node` command when executing a Node.js file.
-> `npm install --global nodemon`
+> **Note** - in order to avoid restarting server manually every time we change the source code, we can use [nodemon](https://nodemon.io/) package. You can install it globally and use it instead of the `node` command when executing a Node.js file.
+> `npm install --global nodemon`.
 > Now you can use `nodemon server/index.js` to run and watch your Node.js files.
 
 4. Now we can "teach" our server to handle different URLs and [HTTP methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods) which together construct routes.
@@ -188,10 +189,11 @@ GET /
 ```
 
 > **Note 1** - The order is important. Routes defined first in the server-side code will trigger and be executed when it's a match.
+>
 > **Note 2** - Once a route handler is triggered, it will not proceed to another matching route handler, unless you use **next()** function. Next function is being provided as 3rd argument to handler functions, but it is optional and can therefore be left if not needed.
 >
 > ```js
-> app.get("*", function logGetRequests(req, res, next) {
+> app.use("*", function logGetRequests(req, res, next) {
 >   // if this is first declared route - you will see the following message on every GET request
 >   console.log("someone made a request with GET method");
 >   next(); // this function will pass execution to next matching route handler
@@ -213,7 +215,7 @@ const app = express();
 
 const apiRouter = express.Router();
 
-app.get("*", function logGetRequests(req, res, next) {
+app.use("*", function logGetRequests(req, res, next) {
   console.log("someone made a request with GET method");
   next();
 });
@@ -254,11 +256,11 @@ This is good for now, as we'll be working on the frontend during the upcoming we
 
 P.S This might be a good moment for another GIT commit. Make the message meaningful!
 
-### Splitting your application code: folder organisation
+### Splitting your application code: folder organization
 
-Although we can write all code in one file, it eventually will become big, complex and unclear.
+Although we can write all the code in one file, it will eventually become big, complex and unclear.
 
-To get a better overview we can **split** the code into seperate smaller files. Each file will then be responsible for providing the application a different functionality.
+To get a better overview we can **split** the code into separate smaller files. Each file will then be responsible for providing the application a different functionality.
 
 We will change the folder structure of `server/` into the following:
 
@@ -287,7 +289,7 @@ const apiRouter = require("./api"); // Loading in our custom index.js from /api 
 
 const app = express(); // Creating an Express instance
 
-app.get("*", function logGetRequests(req, res, next) {
+app.use("*", function logGetRequests(req, res, next) {
   console.log("someone made a request with GET method");
   next();
 });
@@ -334,10 +336,12 @@ Add this middleware before any route in `server/app.js`
 
 ```js
 // server/app.js
+const path = require("path");
+
 app.use(express.static(path.join(__dirname, "public")));
 ```
 
-> **Note** - path is another default nodejs package.
+> **Note** - path is a default nodejs package in older versions.
 
 Create new `public/index.html` file
 
@@ -369,7 +373,7 @@ h1 {
 }
 ```
 
-Now, accessing `http://localhost:8080/` will trigger static middleware to serve `public/index.html` (if index.html file is available it gets served automatically) file which will request `http://localhost:8080/style.css` (check the Network tab) and get content of `public/style.css`.
+Now, accessing `http://localhost:8080/` will trigger static middleware to serve `public/index.html` file (if index.html file is available it gets served automatically) which will request `http://localhost:8080/style.css` (check the Network tab) and get content of `public/style.css`.
 
 Note that our `app.get('/', ...);` route is not triggered anymore. Reason for that is, if express.static could find a file by requested name, next() function will NOT be called. If there is no such file, next() function will be executed. You can try it by accessing not existing asset, like `http://localhost:8080/app.js` and changing `app.get('/', ...);` to `app.get('*', ...);` for example. You will see "index page, triggered by GET /" message in browser.
 
@@ -385,7 +389,7 @@ Note that our `app.get('/', ...);` route is not triggered anymore. Reason for th
 
 [prettier](https://prettier.io/) - an opinionated code formatter
 
-Eslint will help us to find and fix bad code patterns.
+Eslint will help us find and fix bad code patterns.
 Prettier helps to focus on writing code, not styling it.
 
 Both eslint and prettier have integration with most IDEs and code editors.
@@ -393,7 +397,7 @@ Both eslint and prettier have integration with most IDEs and code editors.
 Run this command to install all packages needed for eslint and prettier setup.
 
 ```
-npm istall --save-dev eslint eslint-config-airbnb-base eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react prettier
+npm install --save-dev eslint eslint-config-airbnb-base eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react prettier
 ```
 
 Add the following content to **.eslintrc.json** file

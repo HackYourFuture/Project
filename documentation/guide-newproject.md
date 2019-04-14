@@ -60,10 +60,10 @@ Native to Node.js there's a package we can use to do this: the `http` package. W
 
 ```js
 // Filename: index.js
-var http = require("http"); // This loads the http functionality in
+const http = require("http"); // This loads the http functionality in
 
-var server = http.createServer(function requestHandler(request, response) {
-  response.writeHead(200); // This gives the response a header, which is status code 200: OK
+const server = http.createServer(function requestHandler(request, response) {
+  response.writeHead(200); // This gives the response a header (metadata), which is status code 200: OK
   response.end("Hi everybody!"); // This sends a message with the response to the client
 });
 
@@ -100,7 +100,11 @@ app.use(function requestHandler(request, response) {
   response.send("Hi everybody! Now it is an Express server");
 });
 
-app.listen(8080); // This starts the server, by making it actively listen (to port 8080)
+app.listen(8080, () =>
+  console.log(
+    "This message makes visible to the developer that the server is running"
+  )
+); // This starts the server, by making it actively listen (to port 8080)
 ```
 
 > **Note** - Express utilizes the http package behind the scenes.

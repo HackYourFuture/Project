@@ -12,9 +12,8 @@ By doing this week's homework you'll be learn how to:
 
 Modify the form to have filters (filter by `price`, `location` and `amount of rooms`), order, pagination on frontend
 
-- preserve filter state in url
+- preserve filter state in url.
 - read from url on page load and put data in state
-- we can do actual filtering on ‘submit’ not on input change as i did
 - filtering means you send your search form state to server and wait for new results from it
 
 ## Backend:

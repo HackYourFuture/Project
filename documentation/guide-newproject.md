@@ -163,7 +163,7 @@ router.METHOD(PATH, HANDLER, [HANDLER2, [HANDLER3,...]])
 Routers can be nested. You can define router as a handler:
 
 ```js
-const apiRouter = express().Router();
+const apiRouter = express.Router();
 
 apiRouter.get("/", function(req, res) {
   res.send("triggered by GET /api/ path");

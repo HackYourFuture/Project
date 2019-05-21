@@ -294,7 +294,7 @@ app.use("*", function logGetRequests(req, res, next) {
   next();
 });
 
-app.get("/api", apiRouter);
+app.use("/api", apiRouter);
 
 app.get("/", function(req, res) {
   res.send("index page, triggered by GET /");

@@ -4,147 +4,136 @@
 
 ## Learning goals
 
-By doing this week's homework you'll be learn how to:
+By doing this week's homework you'll learn how to:
 
-- Setup and `link a MySQL database to your Node.js server`
+- Setup and link `a MySQL database` to your `Node.js server`
 - How to `validate data` from a database
-- `Create a full-stack feature` that allows users to upload data
+- Creating a feature: user feedback on data upload
+- Creating a feature:
 
-## Connect a Database to your application
+### 1. Creating a database
 
-We'll be using an instance of MySQL.
+This week we'll be creating a new database, connecting it to the server and making it possible for a user to upload data in the client.
 
-1. Using the CLI or GUI, create a new database called `housesDatabase`
-2. Inside the database, create a new table with the following structure:
+1. Using the command line or GUI ([MySQLWorkbench](https://dev.mysql.com/downloads/workbench/)), create a new database called `housesDatabase`.
+2. Inside the database, create a new table called `houses`. Give it the following structure:
 
-`id` 
+`id`
 
 primary key
 
-
-`link` 
+`link`
 
 string  
 url to original offer  
-unique key  
+unique key
 
-
-`market_date` 
+`market_date`
 
 date  
 date when offer was added to website or data of adding it to database  
-required  
+required
 
+`location_country`
 
-`location_country` 
+string
+country name
+required
 
-string 
-country name 
-required 
-
-
-`location_city` 
+`location_city`
 
 string  
 city name  
-required  
+required
 
-
-`location_address` 
+`location_address`
 
 string  
-house address  
+house address
 
-
-`location_coordinates_lat` 
+`location_coordinates_lat`
 
 float  
-latitude  
+latitude
 
-
-`location_coordinates_lng` 
+`location_coordinates_lng`
 
 float  
 longitude  
-either address or lat+lng is required 
+either address or lat+lng is required
 
-
-`size_living_area` 
+`size_living_area`
 
 int  
 living area in square meters  
-required  
+required
 
-
-`size_rooms` 
+`size_rooms`
 
 int  
 total number of rooms  
-required  
+required
 
-
-`price_value` 
+`price_value`
 
 float  
 price of property  
 float number  
-required  
+required
 
-
-`price_currency` 
+`price_currency`
 
 string  
 currenct code, 3 characters  
-required  
+required
 
-
-`description` 
-
-string  
-free text  
-
-
-`title` 
+`description`
 
 string  
-free text  
+free text
 
+`title`
 
-`images` 
+string  
+free text
+
+`images`
 
 string  
 list of urls to images, separated with comma  
-`<url1>,<url2>,<url3>`   
+`<url1>,<url2>,<url3>`
 
-
-`sold` 
+`sold`
 
 int  
-1/0  
+1/0
 
+### 2. Making a change on the server
 
-## Making a change on the server
-
-1. Change the logic of the POST /api/houses endpoint
+1. Change the logic of the `POST /api/houses` endpoint
 
 - Instead of the `fakeDB` array it should expect a JSON string as input data.
 - The data type of this data should be `array`.
 - In the response to the client it should generate a small report:
   - valid: N
-  - invalid: array
+  - invalid: `array`
     - errors
     - raw
 - All valid data should be inserted into `housesDatabase`, the invalid data can be ignored
 
 2. Validate the data on the server
 
-- Every element in the array should be validated
+- Every element in the array should be validated; is the data of the expected type?
 - All required fields should be included
-- Every field in the object should be validated according to its purpose
+- Add error handling: create an error message for each invalid element
 
-## Making a change in the client
+3. Send the error report to the client
 
-On the frontend we'll be creating a new feature, that allows a user to **contribute** housing data.
+- Make sure it's an array
+
+### 3. Making a change in the client
+
+On the frontend we'll be creating a new feature, that allows a user to **contribute** data.
 
 1. Create a frontend route that goes to `/contribute`
 
@@ -152,4 +141,3 @@ On the frontend we'll be creating a new feature, that allows a user to **contrib
 
 - The form should contain a `textarea` and a `submit button`
 - On submit, the backend will send a report as a response
-- Take care of error handling

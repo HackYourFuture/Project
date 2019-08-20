@@ -4,18 +4,25 @@
 
 ## Learning goals
 
-By doing this week's homework you'll be learn how to:
+By doing this week's homework you'll learn how to:
 
-- How to build a `full-stack feature`: a search and filter functionality
+- Build a `full-stack feature`: a search and filter functionality
 
 ## Frontend: filter, order and pagination
 
-Modify the form to have filters (filter by `price`, `location` and `amount of rooms`), order, pagination on frontend
+1. Modify the form to include extra input fields; these will be filters by which we selectively request data from the database. Make a field for `price`, `location` and `amount of rooms`. Put the input values in state.
 
-- preserve filter state in url.
-- read from url on page load and put data in state
-- filtering means you send your search form state to server and wait for new results from it
+2. Add another filter: `order` by price and location. Put the input value in state.
+
+3. Add another filter: `pagination`. Show 5 items on every page. If there are more than 5 houses in the database, split it into a different page. Show a page number at the bottom of the screen. Put the input value in state.
+
+Important to note:
+
+- Put the search criteria in the URL as parameters, like `?price_min=50000&price_max=100000`.
+- Make sure to load in items with default search criteria, on page load and when any of the criteria is changed
 
 ## Backend:
 
-- change `GET /api/houses` endpoint on backend, it must validate the query params provided by the client. Compose a query that will retrieve only data eligible for search criteria
+Inside the route `GET /api/houses`, validate the query parameters provided by the client; make sure the server gets what it expects.
+
+Compose a MySQL query using the query params.

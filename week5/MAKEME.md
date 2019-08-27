@@ -7,9 +7,11 @@
 By doing this week's homework you'll learn how to:
 
 - Use `GIT branching`
-- Work collaboratively from a single remote repository
-- Work collaboratively on the same branch
-- How to work with different npm packages
+- Learn the `basics of Scrum`
+- Work collaboratively from a `single remote repository`
+- Make use of `GitHub Boards to keep track` of things
+- Work collaboratively on the `same branch`
+- How to work with different `npm packages`
 
 ## Feature Time!
 

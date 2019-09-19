@@ -4,17 +4,19 @@ Giving presentations is an essential part of working in teams. But why is this t
 
 1. Communicate ideas or results
 
-The first reason directly links to the content of the presentation. You want to present ideas or the result of work to members of your team/company. Usually there is no place for
+The first reason directly links to the content of the presentation. You want to present ideas or the result of work to members of your team/company. Usually there is no place for discussion innovation, unless at a special meeting or presentation.
 
 2. Show confidence
 
-A business grows through a series of wise decisions.
+A business grows through a series of wise decisions. When you present your ideas with confidence, others will take them more seriously and thus think better of your abilities. This will help the business and you as well.
 
 3. Gather feedback
 
-A presentation is the perfect moment to ask for feedback on your ideas or to start a discussion. When others have heard
+This is important: sure, you're presenting your ideas. But you also want to throw them in the group to see how others look at them. Because maybe you're in some regards incorrect, or need a second opinion.
 
 4. Answer questions
+
+This will allow others to more fully grasp what your ideas are about.
 
 ### Presentation guidelines
 

@@ -1,9 +1,6 @@
 # Git Project Workflow Guide
 
-## GENERAL INFORMATION:
-
-There will be 1 remote repository that everyone will work with.
-Everyone will git clone the repository and make sure to have fetched the most recent commit
+There will be 1 remote repository that everyone will work with. Everyone will git clone the repository and make sure to have fetched the most recent commit
 
 ### REMOTE
 
@@ -45,7 +42,7 @@ Tips to communicate:
 2. Make sure every team member can functionally use the feature in 3. their local project
 3. One team member makes a pull request to remote branch development, but doesn’t merge it!
 
-### IMPORTANT!
+## IMPORTANT!
 
 1. Merging code with development and master will only be done on **remote** (GitHub), through pull requests
 2. Each team member will work on a feature while in the branch of that feature. Once you are done for the day, `git push origin [BRANCH_NAME]` the code to the remote branch. At the start of a new day, `git pull origin [BRANCH_NAME]` to get the latest version of the code base

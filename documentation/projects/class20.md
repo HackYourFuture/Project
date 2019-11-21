@@ -1,4 +1,4 @@
-## HackYourSocial (class 20)
+## HackYourSocial (class20)
 
 Made by the team of #class20, HackYourSocial is a social networking application made for developers.
 

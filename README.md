@@ -47,7 +47,7 @@ In the following table you'll see the outline for each week. Notice how you'll b
 
 There have been other classes before who have been through the same process.
 
-Click on the following [link](/projects) to see examples of their projects.
+Click on the following [link](.//documentation/projects/README.md) to see examples of their projects.
 
 ## After Project
 

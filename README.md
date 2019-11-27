@@ -1,4 +1,6 @@
-# Project
+# Module #8 - Project: Build an application with a team (Full Stack)
+
+![Project](./assets/project.png)
 
 Welcome to the Project module! Congratulations on making it this far!
 
@@ -10,7 +12,7 @@ Along with practicing your programming skills you will also be working on your c
 
 ## Learning Goals
 
-During the Project you will work on your technical and communication skills. At the end of this module you'll have to learned the following:
+During the Project you will work on your technical and communication skills. At the end of this module you'll learn the following:
 
 Technical skills:
 
@@ -27,7 +29,7 @@ Communication skills:
 - Knowing if you `understand what's asked` of you
 - How to `communicate with non-developers` about what you're doing
 - Learning how to be `solutions-oriented`
-- How to work in a `Scrum setting`
+- How to work in a `Agile setting`
 
 ## Project Outline
 
@@ -54,3 +56,7 @@ Click on the following [link](.//documentation/projects/README.md) to see exampl
 Congratulations for finishing the Project module! You may call yourself a **worthy** junior web developer now. You are also now part of the HackYourFuture Alumni Network.
 
 What now? Simple! Just go [here](./documentation/postgraduation.md).
+
+_The HackYourFuture curriculum is subject to CC BY copyright. This means you can freely use our materials, but just make sure to give us credit for it :)_
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.

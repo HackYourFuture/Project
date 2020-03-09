@@ -34,6 +34,11 @@ Here are some guidelines to preparing a quality presentation:
 
 ### An Example
 
+The following example has a basic structure:
+1. A clear definition, IN YOUR OWN WORDS. Make it as simple as possible.
+2. Show an example of the concept in code. Either self-created or found in a project.
+3. Be ready for questions!
+
 > Example Topic: “Functions”
 >
 > 1. A function is a reusable block of code designed to perform a certain task. For example, the task of the map() is to loop over an array to make it possible to modify every array element by calling another function on each item. Required to write a function are the “function” keyword and “return” statement.

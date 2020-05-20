@@ -6,9 +6,11 @@ Welcome to the Project module! Congratulations on making it this far!
 
 In the upcoming 7 weeks you'll be immersed into the web developer life. By the end of it you will have created a full-stack web application and published it to the internet.
 
-Everything you have learned so far will be combined and put into practice. Added to that you'll learn some more cutting-edge technologies that will prepare you for a great start in a modern software company. We will start out with the basics and incrementally add more complexity. This way you'll learn how all the pieces of a RESTful API fit together, thereby gaining a deeper understanding of where the backend stops and frontend starts.
+Everything you have learned so far will be combined and put into practice. Added to that you'll learn some more cutting-edge technologies that will prepare you for a great start in a modern software company. We will start out with the basics and incrementally add more complexity. This way you'll learn how all the pieces of a full-stack application fit together, thereby gaining a deeper understanding of where the backend stops and frontend starts.
 
 Along with practicing your programming skills you will also be working on your communication skills. This is just as important, because you need to be able to communicate your ideas and efforts in an easy-to-understand manner.
+
+Lastly, we'll tackle the subject of `software development methodology`. Or, in other words, the HOW of building software in teams. We'll take a look at the history and then dive into more modern forms of
 
 ## Learning Goals
 
@@ -24,26 +26,25 @@ Technical skills:
 
 Communication skills:
 
-- How to `communicate effectively` with team members
-- `Keeping track` of your project's progress
-- Knowing if you `understand what's asked` of you
-- How to `communicate with non-developers` about what you're doing
+- `Keeping track` of your project's progress using GitHub Boards
+- How to `communicate technically` about what you're doing
 - Learning how to be `solutions-oriented`
 - How to work in a `Agile setting`
+- Learning about `Scrum` and its applications
 
 ## Project Outline
 
 In the following table you'll see the outline for each week. Notice how you'll be working on both the technical and communication sides of the project.
 
-| Week # | Topic                                  |
-| ------ | -------------------------------------- |
-| 1.     | Introducing Project, Build the backend |
-| 2.     | Build the frontend                     |
-| 3.     | Bring everything together              |
-| 4.     | Presentation, Discuss Features         |
-| 5.     | Group: Working on features I           |
-| 6.     | Group: Working on features II          |
-| 7.     | Final Presentation                     |
+| Week # | Topic                                  | Readings                        |
+| ------ | -------------------------------------- | ------------------------------- |
+| 1.     | Introducing Project, Build the backend | [Reading W1](./week1/README.md) |
+| 2.     | Build the frontend                     | [Reading W2](./week2/README.md) |
+| 3.     | Bring everything together              | [Reading W3](./week3/README.md) |
+| 4.     | Presentation, Discuss Features         | [Reading W4](./week4/README.md) |
+| 5.     | Group: Working on features I           | [Reading W5](./week5/README.md) |
+| 6.     | Group: Working on features II          | [Reading W6](./week6/README.md) |
+| 7.     | Final Presentation                     | [Reading W7](./week7/README.md) |
 
 ## Learn By Example! Previous Projects
 

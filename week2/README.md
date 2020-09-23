@@ -47,11 +47,32 @@ In this module you'll learn all about Agile software development, because nowada
 
 ### Agile philosophy
 
-The first thing to learn is that Agile is not a technology. In fact, it has little to do with actual progrmaming. 
+The first thing to learn is that Agile is not a technology. In fact, it has little to do with actual programming.
+
+Instead, it's a **theory for working** that applies to software development projects. When people refer to "Agile working", they are talking about working with certain principles in mind:
+
+![12 Principles of Agile](./../assets/12-agile-principles.png)
+
+This means that it's more about communication and teamwork, within in a business setting. How should the product development process go? How do you relate to your colleagues? These questions and more are answered by the Agile philosophy.
+
+Go through the following to learn more about the Agile philosophy:
 
 - [Software Development Methodology: What is Agile?](https://www.youtube.com/watch?v=GzzkpAOxHXs)
 - [Agile manifesto](https://www.youtube.com/watch?v=jSayJF0epJs)
 
 ### Waterfall vs. Agile
 
-[Waterfall vs. Agile](https://www.youtube.com/watch?v=egF9-FejbsA)
+Like you learned last week, Agile is just one of many software development methodologies. Another important one to know about is called `Waterfall`.
+
+Waterfall is defined by a linear sequence of events, that doesn't taking changing conditions in the software marketplace into consideration.
+
+![Waterfall Model](./../assets/waterfall.png)
+
+In a Waterfall development project, each of event represents a distinct stage of software development. One stage, generally speaking, can only start when the previous one has finished. There is also typically a reviewal between each stage, whereby the customer will come in and give their approval.
+
+As a professional software developer you should be aware of both of these models. One isn't "better" than the other, just like one framework (like Vue.js) isn't better than another (like React.js). Instead, they're both just tools to do a different kind of job with.
+
+Learn more about both in the following resources:
+
+- [Software Development Methodology: What is Waterfall?](https://www.youtube.com/watch?v=LxEmGNgqYJA)
+- [Waterfall vs. Agile](https://www.youtube.com/watch?v=egF9-FejbsA)

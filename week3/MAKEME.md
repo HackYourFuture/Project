@@ -7,9 +7,9 @@
 
 ## 1. Video Course
 
-This week you'll start off with the video course. You'll be learning how to build a full-stack application, by yourself, over the course of 4 weeks.
+You're halfway there!
 
-You are required to go through the course for 1/4 of its length (or to whatever section your mentor tasks you).
+Once again, you are required to go through the course for 1/4 of its length (or to whatever section your mentor tasks you).
 
 While doing so, you have to code along and make sure to store the code in a personal repository on GitHub.
 

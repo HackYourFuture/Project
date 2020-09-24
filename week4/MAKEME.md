@@ -7,13 +7,15 @@
 
 ## 1. Video Course
 
-This week you'll start off with the video course. You'll be learning how to build a full-stack application, by yourself, over the course of 4 weeks.
+This week you'll finalize the project and get started with adding features to this project.
 
-You are required to go through the course for 1/4 of its length (or to whatever section your mentor tasks you).
+For a last time, you are required to go through the course for 1/4 of its length (or to whatever section your mentor tasks you).
 
 While doing so, you have to code along and make sure to store the code in a personal repository on GitHub.
 
 If any things are unclear, write down those questions! You can ask them during the Q&A on Sunday to your classmates and teacher!
+
+After finishing the course it's recommended that you revise the concepts and make sure you get any questions you still have answered.
 
 ## 2. Record a concept
 

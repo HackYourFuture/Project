@@ -55,7 +55,7 @@ Click on the following [link](.//documentation/projects/README.md) to see exampl
 
 Congratulations for finishing the Project module! You may call yourself a **worthy** junior web developer now. You are also now part of the HackYourFuture Alumni Network.
 
-What now? Simple! Just go [here](./documentation/postgraduation.md).
+What now? Simple! Just go [here](https://github.com/hackyourfuture/post-grad-ed).
 
 _The HackYourFuture curriculum is subject to CC BY copyright. This means you can freely use our materials, but just make sure to give us credit for it :)_
 

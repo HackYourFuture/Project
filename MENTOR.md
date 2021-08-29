@@ -10,6 +10,7 @@ Below we will go into the different parts highlighting the responsibilities and 
 The table below gives an overview of what is expected, in the sections after that we go in deeper into what it means exactly.
 
 | Week # | Sunday meeting             | Week responsibilities        |
+| ------ | -------------------------- | ---------------------------- |
 | 0.     | -                          | Look through project github  |
 | 1.     | [Agenda](/week1/README.md) | Mentor the 'backend' team    |
 | 2.     | [Agenda](/week2/README.md) | Manage code/reviews          |
@@ -36,6 +37,7 @@ In week 2 we expect you to have to do some code reviews yourself (after other st
 The table below gives an overview of what is expected, in the sections after that we go in deeper into what it means exactly.
 
 | Week # | Sunday meeting                                 | Week responsibilities        |
+| ------ | ---------------------------------------------- | ---------------------------- |
 | 0.     | -                                              | Set up the project board     |
 | 1.     | [Agenda](/week1/README.md)                     | Mentor the 'frontend' team   |
 | 2.     | Facilitate meeting: [Agenda](/week2/README.md) | -                            |
@@ -65,6 +67,7 @@ In week 1, the education director will facilitate the meeting as we at HYF want 
 The table below gives an overview of what is expected, in the sections after that we go in deeper into what it means exactly.
 
 | Week # | Sunday meeting             | Week responsibilities        |
+| ------ | -------------------------- | ---------------------------- |
 | 3.     | -                          | Look through project code    |
 | 4.     | [Agenda](/week4/README.md) | Be available for questions   |
 | 5.     | [Agenda](/week5/README.md) | Be available for questions   |
@@ -85,6 +88,7 @@ During the week you may be asked for help if the class gets really stuck. They a
 The table below gives an overview of what is expected, in the sections after that we go in deeper into what it means exactly.
 
 | Week # | Sunday meeting                                 | Week responsibilities        |
+| ------ | ---------------------------------------------- | ---------------------------- |
 | 3.     | -                                              | Check out the app, wireframes, project board  |
 | 4.     | [Agenda](/week4/README.md)                     | -                            |
 | 5.     | [Agenda](/week5/README.md)                     | -                            |
@@ -99,6 +103,7 @@ In the first three weeks an MVP will be built for the application. During week 3
 The table below gives an overview of what is expected, in the sections after that we go in deeper into what it means exactly.
 
 | Week # | Sunday meeting                                 | Week responsibilities        |
+| ------ | ---------------------------------------------- | ---------------------------- |
 | 3.     | -                                              | Check out the project board  |
 | 4.     | Facilitate: [Agenda](/week4/README.md)         | -                            |
 | 5.     | Facilitate: [Agenda](/week5/README.md)         | -                            |

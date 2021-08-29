@@ -4,11 +4,11 @@
 
 Welcome to the Project module! Congratulations on making it this far!
 
-In the upcoming 7 weeks you'll be immersed into the web developer life. By the end of it you will have created a full-stack web application and published it to the internet.
+In the upcoming 7 weeks you'll be immersed into the web developer life. By the end of it you and your classmates will have created your own full-stack web application and published it to the internet!
 
-Everything you have learned so far will be combined and put into practice. Added to that you'll learn some more cutting-edge technologies that will prepare you for a great start in a modern software company. We will start out with the basics and incrementally add more complexity. This way you'll learn how all the pieces of a RESTful API fit together, thereby gaining a deeper understanding of where the backend stops and frontend starts.
+Everything you have learned so far will be combined and put into practice. We will start with deciding on an app, then building an MVP (Minimal Viable Product), and incrementally add more features afterwards. This way you'll learn how all the pieces of a full stack application are built and work together.
 
-Along with practicing your programming skills you will also be working on your communication skills. This is just as important, because you need to be able to communicate your ideas and efforts in an easy-to-understand manner.
+Along with practicing your programming skills you will also be working on your communication skills. This is just as important, because as a developer you need to be able to communicate your ideas and efforts in an easy-to-understand manner.
 
 ## Learning Goals
 
@@ -29,33 +29,34 @@ Communication skills:
 - Knowing if you `understand what's asked` of you
 - How to `communicate with non-developers` about what you're doing
 - Learning how to be `solutions-oriented`
-- How to work in a `Agile setting`
+- How to work in an `Agile setting`
 
 ## Project Outline
 
-In the following table you'll see the outline for each week. Notice how you'll be working on both the technical and communication sides of the project.
+In the following table you'll see the outline for each week.
 
-| Week # | Topic                                  |
-| ------ | -------------------------------------- |
-| 1.     | Introducing Project, Build the backend |
-| 2.     | Build the frontend                     |
-| 3.     | Bring everything together              |
-| 4.     | Presentation, Discuss Features         |
-| 5.     | Group: Working on features I           |
-| 6.     | Group: Working on features II          |
-| 7.     | Final Presentation                     |
+| Week # | Topic                                                                       | Sunday meeting | Week tasks |
+| ------ | --------------------------------------------------------------------------- |
+| 0.     | Decide on the app to build                                                  | - | [Tasks W0](/week0/README.md) |
+| 1.     | Create wireframes, user stories, decide on schema's and endpoints           | [Sunday W1](/week1/README.md) | [Tasks W1](/week1/MAKEME.md) |
+| 2.     | Decide on the MVP, Build feature                                            |[Sunday W2](/week2/README.md) | [Tasks W2](/week2/MAKEME.md) |
+| 3.     | Finish up the MVP, Build feature                                            |[Sunday W3](/week3/README.md) | [Tasks W3](/week3/MAKEME.md) |
+| 4.     | Present MVP to new group, Build feature                                     |[Sunday W4](/week4/README.md) | [Tasks W4](/week4/MAKEME.md) |
+| 5.     | Retrospective, Build feature                                                |[Sunday W5](/week5/README.md) | [Tasks W5](/week5/MAKEME.md) |
+| 6.     | Finalize project                                                            |[Sunday W6](/week6/README.md) | [Tasks W6](/week6/MAKEME.md) |
+| 7.     | Final presentation, General assessment                                      |[Sunday W7](/week7/README.md) | [General assessment](/week7/MAKEME.md) |
 
-## Learn By Example! Previous Projects
+## After the Project
 
-There have been other classes before who have been through the same process.
+Congratulations, you finished the Project module and got a working full stack application online to show off to potential employers! Copy the code over to your personal github, fill in the README and go through the code to make sure you understand how it all fits together. This is also the time you can make adjustments to the code base you didn't have time to do during the project itself. Have a look at the [technical assignment guidelines](https://github.com/HackYourFuture/ta_guidelines#6-prepare-the-repository) to see how you should fill in the README.
 
-Click on the following [link](.//documentation/projects/README.md) to see examples of their projects.
+## General assessment
+After the final presentation the HYF Core will do a general assessment interview with you. This is a mock social and technical interview with two members of the HYF core team. The HYF core team in these interviews will determine if you are ready to interview for junior developer positions. If that is the case, you will officially graduate and we will start sending your CV's to companies! Expect a lot of interviews and technical assignments coming your way!
 
-## After Project
+If not, do not panic. We will sit down with you to see where more work is needed. For more information, have a look at the [general assessment section](./week7/MAKEME.md).
 
-Congratulations for finishing the Project module! You may call yourself a **worthy** junior web developer now. You are also now part of the HackYourFuture Alumni Network.
-
-What now? Simple! Just go [here](https://github.com/hackyourfuture/post-grad-ed).
+## Mentors
+For more information on what is required from the mentors for this module, please have a look at the [mentors section](./MENTOR.md)
 
 _The HackYourFuture curriculum is subject to CC BY copyright. This means you can freely use our materials, but just make sure to give us credit for it :)_
 

@@ -3,13 +3,15 @@
 ## Sunday meeting
 On Sunday our agenda will look as follows:
 
-12:00 - 12:30 | Introduction round with the new team (class, product owner, tech lead, scrum master)
-12:30 - 13:30 | Every team gives a short demo of the feature they built
-13:30 - 13:45 | BREAK
-13:45 - 14:30 | Go through the backlog to decide the next features to build
-14:30 - 14:45 | Refinement step on the features to build
-14:45 - 14:55 | Randomly decide on teams for the week and divide the next features among the teams (teams of 2 or 3 per feature)
-14:55 - 15:00 | Randomly decide on who will be the daily meeting organiser for this week
+| Time          | Activity |
+| ------------- | -------- |
+| 12:00-12:30 | Introduction round with the new team (class, product owner, tech lead, scrum master) |
+| 12:30-13:30 | Every team gives a short demo of the feature they built |
+| 13:30-13:45 | BREAK |
+| 13:45-14:30 | Go through the backlog to decide the next features to build |
+| 14:30-14:45 | Refinement step on the features to build |
+| 14:45-14:55 | Randomly decide on teams for the week and divide the next features among the teams (teams of 2 or 3 per feature) |
+| 14:55-15:00 | Randomly decide on who will be the daily meeting organiser for this week |
 
 ## Week goals
 From this week on a new mentor team will be taking over and we will be adding a Scrum Master to the team. In week 1 you have read about what they are responsible for and they will be facilitating the Sunday meetings from now on. This will add two things, the technical refinement and the sprint retrospective.

@@ -55,7 +55,7 @@ After the final presentation the HYF Core will do a general assessment interview
 
 If not, do not panic. We will sit down with you to see where more work is needed. As long as you put in the effort, we will continue to support you. 
 
-For more information, have a look at the [general assessment section](./week7/MAKEME.md).
+For more information, have a look at the [general assessment section](./week7/MAKEME.md) and do not forget to read the [Graduation Interviews Repo](https://github.com/HackYourFuture/interviewpreparation/blob/main/graduation_Interviews.md) to be as prepared as you can be!
 
 ## Mentors
 For more information on what is required from the mentors for this module, please have a look at the [mentors section](./MENTOR.md)

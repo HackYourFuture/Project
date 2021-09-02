@@ -1,6 +1,6 @@
 # Module #8 - Project: Build an application with a team (Full Stack)
 
-![Project](./assets/project.png)
+![Project](https://user-images.githubusercontent.com/23367061/131866344-83a11480-be48-4ca2-8a4d-948728dafe88.png)
 
 Welcome to the Project module! Congratulations on making it this far!
 

@@ -8,8 +8,8 @@ On Sunday our agenda will look as follows:
 | 12:00-12:30 | Frontend team gives demo of the wireframe and the user stories of the MVP |
 | 12:30-13:00 | Open discussion on the wireframe |
 | 13:00-13:15 | BREAK |
-| 13:15-13:45 | Backend team gives demo of the database structure |
-| 13:45-14:15 | Open discussion on the database structure |
+| 13:15-13:45 | Backend team gives demo of the database structure/scaffold |
+| 13:45-14:15 | Open discussion on the database structure/scaffold |
 | 14:15-14:30 | BREAK |
 | 14:30-15:00 | Decide on the first features to build |
 | 15:00-15:15 | Explain agile way of working / daily meetings |

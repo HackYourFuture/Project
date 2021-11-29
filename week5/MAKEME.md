@@ -12,10 +12,10 @@ Remember the [tips](../TIPS.md) to a successful developer team!
 
 Besides the normal 'working' tasks, this week has the following specific tasks:
 
-- 1. Preparing for the retrospective
-- 2. (QA) Theory
-  - BBD / TDD / ATDD
-  - ISTBQ
+1. Preparing for the retrospective
+2. (QA) Theory
+   - BBD / TDD / ATDD
+   - ISTBQ
 
 ## 1. Preparing for the retrospective
 

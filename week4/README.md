@@ -6,7 +6,7 @@ On Sunday our agenda will look as follows:
 
 | Time        | Activity                                                                                                         |
 | ----------- | ---------------------------------------------------------------------------------------------------------------- |
-| 12:00-12:30 | Introduction round with the new team (class, product owner, tech lead, scrum master)                             |
+| 12:00-12:30 | Introduction round with the new team (class, product owner, tech lead, QA lead, scrum master)                    |
 | 12:30-13:30 | Every team gives a short demo of the feature they built                                                          |
 | 13:30-13:45 | BREAK                                                                                                            |
 | 13:45-14:30 | Go through the backlog to decide the next features to build                                                      |

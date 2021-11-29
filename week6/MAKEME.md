@@ -6,12 +6,12 @@ This week is a little different. You've now experienced how it is to work in a d
 
 This week's tasks in a row:
 
-- 1. Clean up!
-- 2. Final presentation
-- 3. General Assessment
-- 4. (QA) Theory
-  - SSDLC
-  - SQL/JS injection
+1. Clean up!
+2. Final presentation
+3. General Assessment
+4. (QA) Theory
+   - SSDLC
+   - SQL/JS injection
 
 ## 1. Clean up!
 

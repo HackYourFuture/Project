@@ -8,13 +8,13 @@ Have a look at the [tips](../TIPS.md) for a successful project.
 
 # Week tasks:
 
-- 1. Daily meeting organiser specifics
-- 2. (Dev) Developer tasks
-- 3. (QA) QA Engineer tasks
-- 4. (QA) Theory
-  - Test plans/scenarios/cases
-  - Gherkin
-  - Creating (Bug) issues
+1. Daily meeting organiser specifics
+2. (Dev) Developer tasks
+3. (QA) QA Engineer tasks
+4. (QA) Theory
+    - Test plans/scenarios/cases
+    - Gherkin
+    - Creating (Bug) issues
 
 ## 1. Daily meeting organiser specifics
 

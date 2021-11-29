@@ -6,12 +6,12 @@ That means that you will want to divide some tasks, but get together daily to ch
 
 # Week tasks:
 
-- 1. App design
-- 2. (Dev) Entity Relationship Diagram
-- 3. (QA) Theory
-  - QA Mindset
-  - Agile Testing
-  - Testing pyramid
+1. App design
+2. (Dev) Entity Relationship Diagram
+3. (QA) Theory
+   - QA Mindset
+   - Agile Testing
+   - Testing pyramid
 
 ## 1. App design
 

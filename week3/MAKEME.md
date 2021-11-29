@@ -10,10 +10,10 @@ If you are in the QA team then look at the [week 2 QA explanation](../week2/MAKE
 
 Besides the normal 'working' tasks, this week has the following specific tasks:
 
-- 1. Preparing the mentor swap
-- 2. Definition of Ready and Definition of Done
-- 3. (QA) Theory
-  - Mobile vs Desktop
+1. Preparing the mentor swap
+2. Definition of Ready and Definition of Done
+3. (QA) Theory
+   - Mobile vs Desktop
 
 ## 1. Preparing the mentor swap
 

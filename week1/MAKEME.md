@@ -1,71 +1,67 @@
-# Week 1 tasks
-You are either in the 'backend' or the 'frontend' team. Although you are only responsible for the deliverables in your team, you will need to communicate between each other. The 'frontend' team may decide on some features that require changes in the schema for example.
+# Week 1
 
-We strongly suggest planning daily collaboration meetings, not only within the teams, but also between both teams.
+From now on you as a class are an agile development team. One of the key points of these teams is that you, as a group, will be responsible for delivering everything mentioned below. So don't see it as you splitting of to do just your tasks, but as a team you have to decide the best way to get everything done. This is how it will work in the real world as well, where at the start of a `sprint` it will be decided what can be done by the team collectively, rather than what each individual will do.
 
-## 'Backend' team
-The 'backend' team will be responsible for the following deliverables at the end of the week:
-- An Entity Relationship Diagram
-- A skeleton code base with the folder structure set up
-- Code style/linting rules set up
+That means that you will want to divide some tasks, but get together daily to check in and make sure everyone stays on the same page. For each deliverable, remember that they need to be presented at the end of the week to the mentor team.
 
-On Sunday you will be asked to present the diagram and the code base/rules to the whole group, but it is usually better to already share the information before the meeting so others have a chance to look at it beforehand.
+# Week tasks:
 
-### Entity Relationship Diagram
-An Entity Relationship Diagram is a visual representation of how the database will be set up and you've learned about them in the database module. By thinking out the database structure and having a diagram that everyone can refer to it will be much easier to communicate with each other. In the project you will be using [mongoose](https://mongoosejs.com/) which will bridge the gap between relational and document-based databases by providing schema's that the documents have to adhere too. By having the diagram, implementing these schema's will also become a lot easier.
+- 1. App design
+- 2. (Dev) Entity Relationship Diagram
+- 3. (QA) Theory
+  - QA Mindset
+  - Agile Testing
+  - Testing pyramid
 
-### Skeleton code base
-When working on the same project with a lot of different people it becomes vital to have a set of rules of how the code is built. If everyone uses their own way of working the code base will become a huge mess which in time will lead to an unmanageable application. Have a discussion with your team about the following questions:
+## 1. App design
 
-- What CSS solution will you use? (styled-components? react-bootstrap? material ui?)
-- What is the frontend folder structure? (Is there a separate folder for the pages / components?)
-- What frontend routing solution do you use? (react-router? something else?)
-- What is the backend folder structure? Where are the controllers? Where are the models? Where are the routes?
-- What type of backend API will you build? (REST? Express? GraphQL? Apollo?)
-- Do you want to set up a design system? (Storybook? React-styleguidist?)
+All applications start with an idea, but an idea does not get you very far. To work out application ideas we generally start with wireframes. These are a representation of all the pages the application will have without adding any design layers yet. This allows everyone to talk through the application and already figure out the user experience without having to code anything. After the key user challenges are solved in the wireframes, a design layer can be added.
 
-To make it easy for the team to stay on the same page concerning these decisions it is generally best to already build a full roundtrip that uses all the things. By doing this, when other team members look at the code base for their first issue next week, it is already clear how the code is structured. As pretty much all applications have users, it is quite safe to already make something that lists users. Create the following:
+To create app design we suggest using [figma](https://www.figma.com) as it allows you to easily build and share the app design as well as collaborate on them in real time. They also have design templates that you can use to make the app look good!
 
-Backend
-- A basic User schema (just id, e-mail and name should be enough)
-- A route to get all users. Only return the user's name and id, not the e-mail.
-- A route to get the details of a user. This time return everything.
+The app design you make will become the basis for building features in the next 6 weeks, so make sure that they are clear and self explanatory.
 
-Frontend
-- A page that takes the id of the user from the URL and shows the details of that user (name and e-mail)
-- A page that gets all the users and lists them on the page with their name. When clicking on a user it goes to the detail page
+On Sunday, one of you will present the app design to the mentors. If you need help with this or are stuck, your product owner is the person to contact.
 
-The goal is to implement the structure, not something that actually will be deployed. This means you should keep it as simple as possible while making sure that all of the decisions made are implemented in some way.
+## 2. (Dev) Entity Relationship Diagram
 
-### Code style
-The big decisions made to make the skeleton code base will create a general way of working, but code has so many options that all development teams also have a defined code style. These are things like:
+An Entity Relationship Diagram is a visual representation of how the database will be set up and you've learned about them in the database module. By thinking out the database structure and having a diagram with named models that everyone can refer to it will be much easier to communicate with each other. In the project you will be using [mongoose](https://mongoosejs.com/) which will bridge the gap between relational and document-based databases by providing schema's that the documents have to adhere too. By having the diagram, implementing these schema's will also become a lot easier.
 
-- Do we always use arrow functions?
-- Do we use `--` to subtract one from a variable or always hard assign?
-- Do we use shortcuts for booleans?
+On Sunday, one of you will present this diagram to the mentors. If you need help with this or are stuck, your tech lead is the person to contact.
 
-This can get very strict, see for example the airbnb rules here: https://github.com/airbnb/javascript. Some rules are there to avoid bugs, some are for readability and others are for consistency. We do not expect a document like this, but do expect the team to set up eslint (https://eslint.org/) in the project and make it run a check on committing so that all code that gets pushed to github adheres to any rules you set up. This will keep the code looking professional by adhering to a shared style.
+## 3. (QA) Theory
 
-## 'Frontend' team
-The 'frontend' team will be responsible for the following deliverables at the end of the week:
-- Wireframes for the full app
-- Product board filled with user stories for the [Minimal Viable Product](https://en.wikipedia.org/wiki/Minimum_viable_product)
+As a QA you will get some extra reading material every week to learn about the theory behind the role. If at any point you have questions about the theory, then contact your QA lead.
 
-On Sunday you will be asked to present the wireframes and the user stories to the whole group, but it is usually better to already share the information before the meeting so others have a chance to look at it beforehand.
+This week we will start with the mindset that you will need to take on as a QA Engineer and then give you an idea of what doing testing means in an agile mindset.
 
-### Wireframes
-All applications start with an idea, but an idea does not get you very far. To work out application ideas we generally start with wireframes. These are a representation of all the pages the application will have without adding any design layers yet. This allows everyone to talk through the application and already figure out the user experience without having to code anything.
+### 3.1 QA Engineer Mindset
 
-To create wireframes we suggest using [figma](https://www.figma.com) as it allows you to easily build and share the wireframes as well as collaborate on them in real time.
+What makes QAs valuable is their mindset! A mindset is a set of assumptions, methods, or notations held by one or more person. In simple words ... it's the way of thinking. As a QA engineer having the right mindset is the key to ensure quality.
 
-The wireframes you make will become the basis for building features in the next 6 weeks, so make sure that they are clear and self explanatory to anyone looking at them for the first time.
+> A tester's mind should be like that of a child. Someone who is curious, unbiased and not afraid to ask the stupidest of questions.
 
-### Product board
-In github you will find a `Projects` tab that will contain a project board that will be used throughout the upcoming 7 weeks. How the board works will be explained in our first meeting.
+If you're curious to know the inside story of a testers mind, you can read it [here](https://www.linkedin.com/pulse/testers-mind-inside-story-srinivas-murthy/)
 
-After having wireframes set up it is time to decide what features will be part of the MVP (`must-have`) and what can be left out until later (`nice-to-have`). This sounds easier than it actually is. A good way to go about this is write down all the features into [user stories](https://www.mountaingoatsoftware.com/agile/user-stories). Different teams use different templates, the project board will already have an example there for you to help you along. In our project we want every user story to contain:
+To know more how to use the mindset in testing read:
 
-- A title (`As a user, I want to ..., so that I can ...`) that describes the goal of the feature
-- The acceptance criteria (also called `definition of done`) that describes what needs to be implemented for the user story to have been solved
+- [3 Tips To Help Testers Ask Better Questions](https://www.ministryoftesting.com/dojo/series/the-testing-planet-archive/lessons/3-tips-to-help-testers-ask-better-questions)
+- [Software Testing Basics](https://usersnap.com/blog/software-testing-basics/)
 
-Once you have split up the project into user stories it will be easier to decide on what is absolutely needed and what is not. Giving us a small list of features that the class can build in two weeks.
+### 3.2 Agile Testing
+
+As part of the team, QA engineers have an important role throughout the whole process of development. Agile Testing is not sequential (in the sense it's executed only after coding phase) but continuous.
+
+Learn more by going through the following course:
+
+- [Agile Testing](https://www.linkedin.com/learning/agile-testing-2/uplevel-with-agile-testing)
+
+### 3.3 Testing Pyramid
+
+In the previous week, you read about the common types of testing. To build on that, the testing pyramid puts these methods into a diagram, which indicates what kind of testing will be more valuable at which stage.
+
+> The "Test Pyramid" is a metaphor that tells us to group software tests into buckets of different granularity. It also gives an idea of how many tests we should have in each of these groups
+
+Learn how the testing pyramid helps define testing strategies here:
+
+- [Define Testing Strategy using the Testing Pyramid](https://medium.com/@Colin_But/define-testing-strategy-using-the-testing-pyramid-1dabee37e823)

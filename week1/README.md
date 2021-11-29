@@ -1,22 +1,27 @@
 # Week 1
 
 ## Sunday meeting
+
 On Sunday our agenda will look as follows:
 
-| Time          | Activity |
-| ------------- | -------- |
-| 12:00-12:30 | Discuss curriculum, give feedback to us at HYF |
-| 12:30-13:00 | Go over the learning goals and schedule of the project |
-| 13:00-13:15 | BREAK |
-| 13:15-13:45 | Introduce mentors for this module and do an introduction round |
-| 13:45-14:00 | Decide on the App idea |
-| 14:00-14:15 | Explain the product board |
-| 14:15-14:30 | Divide teams for the week |
+| Time        | Activity                                                       |
+| ----------- | -------------------------------------------------------------- |
+| 12:00-12:30 | Introduce mentors for this module and do an introduction round |
+| 12:30-13:00 | Decide on the App idea                                         |
+| 13:00-13:15 | BREAK                                                          |
+| 13:30-?     | Go over user challenges                                        |
 
 ## Week goals
-The start of the project requires a lot of decision making, which will be the focus for this week. We will first decide on the app idea and then, the class will be divided up into teams: The 'backend' team and the 'frontend' team. The names are in quotation marks as some responsibilities are not technically something that only the backend or frontend developers are responsible for. But the 'backend' team will be more responsible for making technical choices whereas the 'frontend' team will be more responsible for making application choices. 
 
-This team division will only be for this week, so it is not the case that if you go 'backend' this week you will only be building the backend. When you start building features you will be building both the backend and the frontend. You are a full stack developer!
+The start of the project requires a lot of decision making, which will be the focus for this week. We will first decide on the app idea and then with the help of our product owner work on going through the user challenges. This will give us a nice list of initial user stories to develop further throughout the week. These user stories will also provide the basis to decide on our database structure.
+
+This week we also want to get familiar with the base repo and the environment you will be coding in. You should already have been given a day and time of a session that will go through the repo/structure and allow for questions to be asked. In that meeting we will go over the following points, but make sure you go through the repo beforehand (the `README` also offers a lot of information already):
+
+- The stack and all the libraries that will be used
+- The folder structure of both the `client` and the `server`
+- The code style decisions
+- How the CI/CD pipeline is set up and what checks are run automatically
 
 ## Ready?
+
 If you are ready to get started on your tasks for the week, click [here](./MAKEME.md).

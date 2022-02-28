@@ -78,3 +78,7 @@ Although we do split you off into pairs and assign a ticket this is merely to in
 You may sometimes feel that something is not part of your role, but that is an old way of thinking. You may not be as experienced a developer as a QA or you may not be that good of a tester as a developer but that should not stop you from helping out if the team notices a bottle neck. If there are a lot of tickets waiting for testing, then as a developer you can jump in and run through the test scenarios to help get those tickets through! Our QAs have quite some developer experience already, so if you see that not enough tickets are reaching the testing stage, start programming!
 
 The great thing about Agile teams is that the goal is clear and although everyone has their specialties these are not defining. The team either succeeds or fails together!
+
+### 4.5 Testing is not just on the QA role
+
+Sometimes we here people in the developer role say: 'why should I test, the QA is here right?'. Although we love your faith in the QA, testing is a shared responsibility. Generally, unit testing and component testing is not the QA's responsibility, they are there for you as a developer and are therefore the developer's responsibility. This is why these types of testing were part of the main curriculum and why end to end testing was not.

@@ -1,82 +1,44 @@
-# Week 6 tasks
+# Week 7
 
-This week is a little different. You've now experienced how it is to work in a development team and it is time to refocus on getting that job. That means that this week is focused on making the project something that is CV worthy.
+After the final presentation it is time for the HYF core team to decide who is graduated and who is not. The whole goal of HYF is to get you a junior developer internship and give you the tools to get through it, so to be graduated means that we are sure you are ready to do that.
 
-# Week tasks:
+There are four categories the class can be divided up into:
 
-This week's tasks in a row:
+- Graduated without general assessment
+- Needs to do a soft skills assessment
+- Needs to do a tech skills assessment
+- Needs to do a general assessment (soft skills + tech skills)
 
-- 1. Clean up!
-- 2. Final presentation
-- 3. General Assessment
-- 4. (QA) Theory
-  - SSDLC
-  - SQL/JS injection
+For some students, the previous results in the curriculum as well as their performance in the project has shown that they are ready for an internship and so, they will graduate without any need of the general assessment.
 
-## 1. Clean up!
+For others, the feedback from mentors or from their interviews with adyen/the HYF team mean that more work is needed before graduation. This means that there will be a soft skills assessment section in your general assessment interview. Have a look at the [Graduation interview preparation repo](https://github.com/HackYourFuture/interviewpreparation/blob/main/graduation_Interviews.md) again to prepare for this. You will be applying for the position that is mentioned there!
 
-Working as a group under pressure will always create some things that are not optimal. In the business we call that `technical debt` and it is time to clean some of that up. In the meeting on Sunday you have created a list of things to work on! As there is nothing assigned, it is important to communicate with each other what you are working on so that work is only done once.
+If your previous technical interviews did not go very well, or you struggled with the code base during the project you will be asked to do another tech skills assessment during you general assessment interview.
 
-During clean up you will probably also encounter some more problems in the code/app as you now take a closer look. Remember the tip to keep your PRs small and focused so if you encounter something, try not to fix it in the same PR but add it to the list to fix later. That way every PR has one focus and is easy to review.
+Remember that whatever path we suggest you follow is because we want to help you forward in your career. If you are in doubt on why we choose a specific path for you from the list above, feel free to discuss it with us.
 
-## 2. Final presentation
+## Failing: What now?
 
-Everyone who has helped you on the project would love to see what it has become in the end, so on the last Sunday you will hold a presentation to show it off. The guidelines for the presentation are:
+If you do not pass the general assessment it is not the end of the world! The curriculum is hard and sometimes it just takes a little longer. For anyone that does not pass we will set up a tailored plan to work on the parts that you need to improve. The plan really depends on you and what we think you need to improve, but here are some examples as reference:
 
-- The presentation should be 15 - 20 mins long. Quality over quantity!
-- In addition to being informational, make it fun!
-- It’s up to you to choose who will be featured in the presentation. But make sure 3 people get to speak.
-- Use slides to support your presentation. Make sure the order is logical and the buildup makes sense for outsiders. The slides should contain only a few keywords and images are highly appreciated.
+Example 1: Build 1 or 2 technical assignments from real companies in a defined period of time.
+Example 2: Conduct some interviews with HYF mentors to get a second opinion on how we can help you improve your interviewing skills.
+Example 3: Redo the graduation project with another class.
 
-The structure of the presentation needs to be as follows:
+If you keep putting in the work, we will continue to support you even after the final project!
 
-- Introduction: Introduce the team, technologies used, showing the UX of the frontend
-- Technical accomplishments: Technologies used, what were some of the technological challenges and how did you solve them. The challenge here is to make it as specific as possible. Choose 1 or 2 examples in the application. Ask your mentor for help if needed.
-- Social accomplishments: how did you work in groups, what worked well and what didn’t, what were some of the challenges in the project? Again, please be as specific as possible!
+## Passing: After the assessment
 
-After the presentation, you will probably get some questions about how it went, what worked and what did not, etc. Anyone in the class can answer these questions, not just the people doing the presentation!
+If you pass, definitely feel free to take a week off. Those were quite the 7 months and you deserve it!
 
-## 3. General assessment
+After that it is important to keep programming though. By then you will hopefully already be in the interview process, but if for some reason there is a scarceness of opportunities, or you are waiting on responses, keep building something and improving your CV!
 
-This week you will also get a post in the class channel to schedule a time for your general assessment. Read more about it in the [week7 tasks](../week7/MAKEME.md). If no post is up, then poke the Education Director!
+If you have an app in mind that you've always wanted to build then this is your chance! If you do not, then choose a technology that you have heard of and build something simple in it to try it out. Developers do this all the time, usually with a chat or todo app as those are the simplest apps to build.
 
-## 4. (QA) Theory
+Some suggestions of technologies (but go for anything that catches your eye):
 
-This week we will discuss some concepts that we have deemed out of scope for this project all around security testing. An actually deployed application with user data may always be subject to attacks by hackers. As a QA engineer you are also responsible for trying to find these vulnerabilities.
+- Nextjs - build a small app using nextjs (https://nextjs.org/) which is a react framework!
+- Angular or Vue.js - widen your frontend knowledge by building an app in an alternative to react
+- GraphQL - we teach REST API's but graphql is an alternative and definitely gaining popularity, have a look at [Apollo](https://www.apollographql.com/docs/react/) and use that
 
-### 4.1 SSDLC
-
-As you know by now, a software development life cycle (SDLC) is a framework that defines the process used by organizations to build an application from its inception to its decommission. Over the years, multiple standard SDLC models have been proposed (waterfall, iterative, agile, etc.) and used in various ways to fit individual circumstances. It is, however, safe to say that in general, SDLCs include the following phases:
-
-- Planning and requirements
-- Architecture and design
-- Test planning
-- Coding
-- Testing and results
-- Release and maintenance
-
-In the past, it was common practice to perform security-related activities at the end of the process and before releasing. This after-the-fact technique usually resulted in a high number of issues discovered too late . It is a far better practice to integrate activities across the SDLC to help discover and reduce vulnerabilities early.
-
-It is in this spirit that the concept of the secure SDLC (SSDLC) arises. A secure SDLC process ensures that security activities such as penetration testing, code review, and architecture analysis are integrated in the development effort. The primary advantages of adopting a secure SDLC approach are:
-
-- More secure software
-- Early detection of flaws in the system
-- Cost reduction as a result of early detection and resolution of issues
-- Overall reduction of intrinsic business risks for the organization
-
-Considering the advantages of SSDLC, promoting this approach is part of your job as QA engineer.
-
-The following course explains the foundation of secure coding, which will help you understand how can security can be integrated in SDLC:
-
-- [Programming Foundations: Secure Coding](https://www.linkedin.com/learning/programming-foundations-secure-coding/)
-
-### 4.2 SQL/JS Injection
-
-QA engineers wear many hats, mostly they wear the users' hats to validate how users will interact with an application ... but they can also wear the _hacker_ hat!
-
-Ethical hacking is aimed to identify vulnerabilities and fix them before the hackers exploit them to execute an attack.
-
-One of the most common attacks is SQL Injection. Learn how to use SQL injection to expose data and wear your _hacker_ 🎩:
-
-- [SQL Injection](https://www.youtube.com/watch?v=G6t1HxgTyfg)
-- [Practicing with SQL injection](https://www.hacksplaining.com/exercises/sql-injection)
+Keep the [technical assignment repo](https://github.com/HackYourFuture/ta_guidelines) in mind with all these projects though! Potential recruiters will be looking at them and making them look good is important!

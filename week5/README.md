@@ -1,23 +1,29 @@
-# Week 5
+# Week 6
 
 ## Sunday meeting
 
 On Sunday our agenda will look as follows:
 
-| Time        | Activity                                                                                                         |
-| ----------- | ---------------------------------------------------------------------------------------------------------------- |
-| 12:00-13:15 | Every team gives a short demo of the feature they built                                                          |
-| 13:15-13:30 | BREAK                                                                                                            |
-| 13:30-14:30 | Sprint retrospective                                                                                             |
-| 14:30-14:45 | BREAK                                                                                                            |
-| 14:45-15:15 | Go through the backlog to decide the next features to build                                                      |
-| 15:15-15:30 | Refinement step on the features to build                                                                         |
-| 15:30-15:40 | Randomly decide on teams for the week and divide the next features among the teams (teams of 2 or 3 per feature) |
-| 15:45-15:50 | Randomly decide on who will be the daily meeting organiser for this week                                         |
+| Time        | Activity                    |
+| ----------- | --------------------------- |
+| 12:00-12:45 | Sprint Demo                 |
+| 12:45-13:15 | QA Exploratory test debrief |
+| 13:15-13:30 | BREAK                       |
+| 13:30-14:15 | Preparing pruning sprint    |
 
-## Week goals
+### Preparing pruning sprint
 
-This week you will have some things to adjust based on the retrospective as well as working on your features. You have all the elements at the same time of working in a development team, this is exactly how it all works!
+This week is about making the project perfect! This project will be the centerpiece of your CV and should not only work perfectly, but should also look great (both the application as well as the code)! So during the meeting on Sunday, create a list of the things you want to fix. These will probably be smaller issues so unlike previous weeks you will not be assigned features, but will just have a bunch of things to do as a team.
+
+Think of things like:
+
+- Bugs
+- Design improvements
+- Code inconsistencies
+- Creating custom hooks for shared logic
+- Combining components into one or splitting big components into multiple
+
+You will also be preparing a final presentation this week to have on Sunday for everyone that helped you in the project aswell as the HYF core team!
 
 ## Ready?
 

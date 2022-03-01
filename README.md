@@ -4,7 +4,7 @@
 
 Welcome to the Project module! Congratulations on making it this far!
 
-In the upcoming 7 weeks you'll be immersed into the web developer life. By the end of it you and your classmates will have created your own full-stack web application and published it to the internet!
+In the upcoming 6 weeks you'll be immersed into the web developer life. By the end of it you and your classmates will have created your own full-stack web application and published it to the internet!
 
 Everything you have learned so far will be combined and put into practice. We will start with deciding on an app, then building an MVP (Minimal Viable Product), and incrementally add more features afterwards. This way you'll learn how all the pieces of a full stack application are built and work together.
 
@@ -39,12 +39,11 @@ In the following table you'll see the outline for each week.
 | ------ | ----------------------------------------------------------------- | ----------------------------- | -------------------------------------- |
 | 0.     | Decide on the app to build                                        | -                             | [Tasks W0](/week0/README.md)           |
 | 1.     | Create wireframes, user stories, decide on schema's and endpoints | [Sunday W1](/week1/README.md) | [Tasks W1](/week1/MAKEME.md)           |
-| 2.     | Decide on the MVP, Build feature                                  | [Sunday W2](/week2/README.md) | [Tasks W2](/week2/MAKEME.md)           |
-| 3.     | Finish up the MVP, Build feature                                  | [Sunday W3](/week3/README.md) | [Tasks W3](/week3/MAKEME.md)           |
-| 4.     | Present MVP to new group, Build feature                           | [Sunday W4](/week4/README.md) | [Tasks W4](/week4/MAKEME.md)           |
-| 5.     | Retrospective, Build feature                                      | [Sunday W5](/week5/README.md) | [Tasks W5](/week5/MAKEME.md)           |
-| 6.     | Finalize project                                                  | [Sunday W6](/week6/README.md) | [Tasks W6](/week6/MAKEME.md)           |
-| 7.     | Final presentation, General assessment                            | [Sunday W7](/week7/README.md) | [General assessment](/week7/MAKEME.md) |
+| 2.     | Build week                                                        | [Sunday W2](/week2/README.md) | [Tasks W2](/week2/MAKEME.md)           |
+| 3.     | Build week                                                        | [Sunday W3](/week3/README.md) | [Tasks W3](/week3/MAKEME.md)           |
+| 4.     | Build week                                                        | [Sunday W4](/week4/README.md) | [Tasks W4](/week4/MAKEME.md)           |
+| 5.     | Finalize project                                                  | [Sunday W5](/week5/README.md) | [Tasks W5](/week5/MAKEME.md)           |
+| 6.     | Final presentation, General assessment                            | [Sunday W6](/week6/README.md) | [General assessment](/week6/MAKEME.md) |
 
 ## After the Project
 
@@ -60,7 +59,7 @@ For more information, have a look at the [general assessment section](./week7/MA
 
 ## Mentors
 
-For more information on what is required from the mentors for this module, please have a look at the [mentors section](./MENTOR.md)
+For more information on what is required from the mentors for this module, please have a look at the [mentors section](./mentor/README.md)
 
 _The HackYourFuture curriculum is subject to CC BY copyright. This means you can freely use our materials, but just make sure to give us credit for it :)_
 

@@ -4,13 +4,20 @@
 
 On Sunday our agenda will look as follows:
 
-| Time        | Activity                                                                                                         |
-| ----------- | ---------------------------------------------------------------------------------------------------------------- |
-| 12:00-13:15 | Every team gives a short demo of the feature they built                                                          |
-| 13:15-13:30 | BREAK                                                                                                            |
-| 13:30-14:15 | Go through the backlog to decide the next features to build                                                      |
-| 14:15-14:30 | Randomly decide on teams for the week and divide the next features among the teams (teams of 2 or 3 per feature) |
-| 14:30-14:35 | Randomly decide on who will be the daily meeting organiser for this week                                         |
+| Time        | Activity             |
+| ----------- | -------------------- |
+| 12:00-12:45 | Sprint Demo          |
+| 12:45-13:15 | Sprint Retrospective |
+| 13:15-13:30 | BREAK                |
+| 13:30-14:15 | Sprint Planning      |
+
+### Sprint Demo
+
+After a week of development every user story in the sprint should be finished. It is then time to show to the rest of the company what has been built and this is what we call a Sprint Demo. In our case we want to show our mentors what has been built as they are not embedded into the team (usually they would be). So make sure beforehand you know who is going to present which user story and have it prepared.
+
+### Sprint Retrospective
+
+The sprint retrospective is held after every sprint and the first one will be held today. The retrospective is a look back over the sprint to see what went well, what did not and what can be done about it. By doing a retrospective the team can identify processes to improve the way the team is working! Don't be afraid to be a little negative or nitpicky here, that is the only way to improve as a team!
 
 ## Week goals
 

@@ -4,17 +4,40 @@
 
 On Sunday our agenda will look as follows:
 
-| Time        | Activity                                                                                                                                     |
-| ----------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| 12:00-12:30 | Demo of the app design                                                                                                                       |
-| 12:30-12:45 | Open discussion on the app design                                                                                                            |
-| 12:45-13:15 | Demo of the database structure                                                                                                               |
-| 13:15-13:30 | Open discussion on the database structure                                                                                                    |
-| 13:30-13:45 | BREAK                                                                                                                                        |
-| 13:45-14:15 | Decide on the first features to build                                                                                                        |
-| 14:15-14:30 | Explain agile way of working / daily meetings                                                                                                |
-| 14:30-14:40 | Randomly decide on who will be the daily meeting organiser of the week and decide on a daily time to have it                                 |
-| 14:40-15:00 | Randomly decide on teams for the week and divide the first features among the teams (teams of 2 or 3 per feature) (QA's are always separate) |
+| Time        | Activity                   |
+| ----------- | -------------------------- |
+| 12:00-12:30 | Discuss app design         |
+| 12:30-13:00 | Discuss database structure |
+| 13:00-13:30 | Discuss test plan          |
+| 13:30-13:45 | BREAK                      |
+| 13:45-14:30 | Sprint planning            |
+
+### Discussions
+
+This week's meeting will have 3 discussions: App design, database structure and the test plan. For each, the students will do a presentation on what they came up with that week and the rest can give feedback and possibly decide on some last minute adjustments.
+
+### Sprint planning
+
+Every week from now on you will be doing a sprint planning. This includes the following steps:
+
+- Decide on which user stories to tackle the upcoming week
+- Determine the acceptance criteria of the user story
+- Determine the steps needed to build it (Technical Refinement step)
+- Use planning poker to determine the amount of points for this user story
+- Divide the group into pairs and decide who will start with which user story
+- Determine a daily meeting organiser (rotates every week)
+
+#### Technical Refinement step
+
+From this week on you will be asked to do a technical refinement step on Sunday. Per feature we want to build a student will be asked to explain the technical steps needed to be implemented. Think about things like:
+
+- Do I need to do some research about some new concept?
+- Does the database model need to be changed?
+- Does there need to be a new endpoint? Or does an existing endpoint need to be changed?
+- What needs to happen on the frontend? Will new components be made?
+- Will a context be needed? A custom hook?
+
+This refinement will help you through the week, but it will also help make an `estimation` of how big the issue is. This estimation will allow for better planning by the product owner and is an important step in any sprint planning.
 
 ## Week goals
 

@@ -8,13 +8,10 @@ Have a look at the [tips](../TIPS.md) for a successful project.
 
 # Week tasks:
 
-1. Daily meeting organiser specifics
-2. (Dev) Developer tasks
-3. (QA) QA Engineer tasks
-4. (QA) Theory
-    - Test plans/scenarios/cases
-    - Gherkin
-    - Creating (Bug) issues
+- 1. Daily meeting organiser specifics
+- 2. (Dev) Developer tasks
+- 3. (QA) QA Engineer tasks
+- 4. Getting settled in
 
 ## 1. Daily meeting organiser specifics
 
@@ -53,59 +50,35 @@ If you are a QA Engineer, you will have the following responsibilities every wee
 - go through the QA Theory of the week
 - at the start of the sprint the team will decide to add a couple of automation issues to the sprint to be completed. If no feature needs testing, then this is what to work on.
 
-## 4. (QA) Theory
+## 4. Getting settled in
 
-This week the work starts and for the theory we will focus on knowledge that will help you communicate with the developors. We'll start with discussing the terms `Test plan`, `Test scenario` and `Test cases`. Next we will discuss the language `Gherkin` which provides a simple and concise way to describe what is expected from a feature. Lastly, we will go over how to create issues for bugs that you may find.
+This will be your first week of working in an Agile team so a lot will feel unfamiliar. To help you out, keep the following things in mind:
 
-### 4.1 Test plans/scenarios/cases
+### 4.1 Daily standups
 
-We need to consolidate our testing ideas for specific features and be able to communicate them through a test plan so that everyone knows what the feature is required to do.
+Remember that during the first week of daily standups the Education Director will be there to make sure that those are going according to plan. After the standup is done, feel free to ask any questions about the way of working to get it cleared up as soon as possible.
 
-Learn how you can do that by reading the following resources:
+### 4.2 Preparing for the retrospective
 
-- [What is Test Scenario? Template with Examples](https://www.guru99.com/test-scenario.html)
-- [How to Write Test Cases: Sample Template with Examples](https://www.guru99.com/test-case.html)
-- [The One Page Test Plan](https://www.ministryoftesting.com/dojo/series/the-testing-planet-2016/lessons/the-one-page-test-plan)
+Keep in mind that at the end of the week you will have a retrospective as that is a part of every agile team. The goal of the retrospective is to look at the way the team is working and identify the positive and negative parts of it. Then, as a team, adjustments to the way of working can be made to make everyone
 
-Examples :
+If during the week you encounter something that really helped you, or hindered you, then write it down somewhere. In the retrospective you will be asked the following questions:
 
-- [Web Application Testing Checklist](https://www.guru99.com/complete-web-application-testing-checklist.html)
-- [The Software Testing Planning Checklist](https://www.ministryoftesting.com/dojo/series/the-testing-planet-2019/lessons/the-software-testing-planning-checklist)
+- What went well?
+- What can we improve?
 
-### 4.2 Gherkin
+This can be in relation to the team, the way of working, the technologies used, etc. Anything that needs to be highlighted! It will be harder to come up with these on the spot, keep a list for yourself.
 
-Not everyone can speakc JavaScript but almost everyone can speak [Gherkin](https://cucumber.io/docs/gherkin/reference/)!
+### 4.3 You are a team!
 
-Gherkin is a domain specific language created especially for business behavior descriptions without the need to go into detail of implementation. Since it's tied to the behavior, it's strongly conncted with Behavior-Driven Development (BDD).
+Although we do split you off into pairs and assign a ticket this is merely to indicate how to start the week. During the week you will run into complications that others may have run into before. Sometimes just having 10 minutes of help from someone else will allow you to get unstuck and move faster as a team. Once you are done with your ticket, check with the rest to see where you can help out. Either the team finishes everything or the team failed.
 
-Example:
+### 4.4 Developers & QA roles do NOT have a wall between them
 
-```
-Given I visit "/login"
-  When I enter "Bob" in the "user name" field
-    And I enter "tester" in the "password" field
-    And I press the "login" button
-  Then I should see the "welcome" page
-```
+You may sometimes feel that something is not part of your role, but that is an old way of thinking. You may not be as experienced a developer as a QA or you may not be that good of a tester as a developer but that should not stop you from helping out if the team notices a bottle neck. If there are a lot of tickets waiting for testing, then as a developer you can jump in and run through the test scenarios to help get those tickets through! Our QAs have quite some developer experience already, so if you see that not enough tickets are reaching the testing stage, start programming!
 
-Did you understand the desired behavior? Then you speak Gherkin too ;)
+The great thing about Agile teams is that the goal is clear and although everyone has their specialties these are not defining. The team either succeeds or fails together!
 
-Master the Gherkin language by getting to know the syntax here:
+### 4.5 Testing is not just on the QA role
 
-- [What is Gherkin?](https://www.guru99.com/gherkin-test-cucumber.html)
-
-Extra resource: [Gherkin Reference](https://cucumber.io/docs/gherkin/reference/)
-
-### 4.3 Creating (Bug) issues
-
-Imagine you have your test scenarios (translated into Gherkin or not), and while executing them something went wrong ... you're not seeing what you're supposed to see, the actual behaviour is not as the expected behaviour!
-
-Then you might have caught a bug 🐞! To know what is a bug and what are the kinds of bugs .. watch this:
-
-- [Testing Essentials - What is a bug?](https://www.youtube.com/watch?v=jvBoKXDCvLE)
-
-To communicate a bug to the developers we want to discuss the art of 🐞storytelling.
-
-> Testers are storytellers. Coming from a communications background, one of the striking parallels I have made since working in quality assurance and software testing is that an important part of their role is to tell short stories through immediate product feedback. One powerful storytelling device they use to achieve this is: the bug report. (By Anneliese Herbosa)
-
-- [The Art Of The Bug Report](https://www.ministryoftesting.com/dojo/series/the-testing-planet-2019/lessons/the-art-of-the-bug-report)
+Sometimes we here people in the developer role say: 'why should I test, the QA is here right?'. Although we love your faith in the QA, testing is a shared responsibility. Generally, unit testing and component testing is not the QA's responsibility, they are there for you as a developer and are therefore the developer's responsibility. This is why these types of testing were part of the main curriculum and why end to end testing was not.

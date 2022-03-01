@@ -12,27 +12,16 @@ Remember the [tips](../TIPS.md) to a successful developer team!
 
 Besides the normal 'working' tasks, this week has the following specific tasks:
 
-1. Preparing for the retrospective
-2. (QA) Theory
-   - Exploratory testing
-   - Debriefing
+- 1. (QA) Exploratory testing
+  - Exploratory testing
+  - Debriefing
+- 2. (QA) Doing an exploratory test
 
-## 1. Preparing for the retrospective
-
-Keep in mind that at the end of the week you will have a retrospective as that is a part of every agile team. The goal of the retrospective is to look at the way the team is working and identify the positive and negative parts of it. Then, as a team, adjustments to the way of working can be made to make everyone
-
-If during the week you encounter something that really helped you, or hindered you, then write it down somewhere. In the retrospective you will be asked the following questions:
-
-- What went well?
-- What can we improve?
-
-This can be in relation to the team, the way of working, the technologies used, etc. Anything that needs to be highlighted!
-
-## 2. (QA) Theory
+## 1. (QA) Exploratory testing
 
 This week we will be focusing on the topic of exploratory testing and the subsequent debriefing of it. This week there is also a practical side, it is up to you to do an exploratory testing session on your own and then plan a debriefing session with your QA lead to practice this!
 
-### 2.1 Exploratory Testing
+### 1.1 Exploratory Testing
 
 > It is a type of software testing where test cases are not created in advance but testers check system on the fly. They may note down ideas about what to test before test execution. The focus of exploratory testing is more on testing as a "thinking" activity.
 > Exploratory Testing is widely used in Agile models and is all about discovery, investigation, and learning. It emphasizes personal freedom and responsibility of the individual tester.
@@ -44,10 +33,16 @@ The following course explains exploratory testing and how it's the key to effect
 Extra reading :
 [Three Digestible Diagrams to Describe Exploratory Testing](https://www.ministryoftesting.com/dojo/lessons/three-digestible-diagrams-to-describe-exploratory-testing)
 
-### 2.2 Debriefing
+### 1.2 Debriefing
 
 Communicating your testing results is as important as testing itself, after running exploratiry testing a debriefing session is necessarily
 
 Read what is debriefing and how it's done here:
 
 - [Carrying Out A Successful Debrief](https://huddle.eurostarsoftwaretesting.com/session-based-test-management-part-4-session-based-exploratory-testing/)
+
+## 2. Doing an exploratory test
+
+We have gone through a few weeks of development now and even though we always try to only deliver outstanding applications there are bound to have been some bugs/inconsistencies/problems that have slipped through. This happens to the best and let's be honest here, we are not the best (yet). As a QA engineer you will want to do an exploratory test to identify parts of the application that can be improved and create issues to fix these things.
+
+At the end of this week, you will present these findings to the team so that the product owner can decide what needs to be fixed before the final version.

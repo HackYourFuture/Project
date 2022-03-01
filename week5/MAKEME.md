@@ -1,36 +1,46 @@
-# Week 5 tasks
+# Week 6 tasks
 
-This week will be very similar to the previous one and you will have the same tasks, so have a look at the tasks [here](../week2/MAKEME.md).
+This week is a little different. You've now experienced how it is to work in a development team and it is time to refocus on getting that job. That means that this week is focused on making the project something that is CV worthy.
 
-If you are the daily meeting organiser then look at the [week 2 tasks](../week2/MAKEME.md) to see what that entails.
+# Week tasks:
 
-If you are in the QA team then look at the [week 2 QA explanation](../week2/MAKEME.md) to see what that entails.
+This week's tasks in a row:
 
-Remember the [tips](../TIPS.md) to a successful developer team!
+- 1. Clean up!
+- 2. Final presentation
+- 3. (QA) Theory
+  - BDD/TDD/ATDD
+  - Automation best practices
+- 4. General Assessment
 
-# Week specific tasks:
+## 1. Clean up!
 
-Besides the normal 'working' tasks, this week has the following specific tasks:
+Working as a group under pressure will always create some things that are not optimal. In the business we call that `technical debt` and it is time to clean some of that up. In the meeting on Sunday you have created a list of things to work on! As there is nothing assigned, it is important to communicate with each other what you are working on so that work is only done once.
 
-1. Preparing for the retrospective
-2. (QA) Theory
-   - BBD / TDD / ATDD
-   - ISTBQ
+During clean up you will probably also encounter some more problems in the code/app as you now take a closer look. Remember the tip to keep your PRs small and focused so if you encounter something, try not to fix it in the same PR but add it to the list to fix later. That way every PR has one focus and is easy to review.
 
-## 1. Preparing for the retrospective
+## 2. Final presentation
 
-Keep in mind that at the end of the week you will have a retrospective. If during the week you encounter something that really helped you, or hindered you, then write it down somewhere. In the retrospective you will be asked the following questions:
+Everyone who has helped you on the project would love to see what it has become in the end, so on the last Sunday you will hold a presentation to show it off. The guidelines for the presentation are:
 
-- What went well?
-- What can we improve?
+- The presentation should be 15 - 20 mins long. Quality over quantity!
+- In addition to being informational, make it fun!
+- It’s up to you to choose who will be featured in the presentation. But make sure 3 people get to speak.
+- Use slides to support your presentation. Make sure the order is logical and the buildup makes sense for outsiders. The slides should contain only a few keywords and images are highly appreciated.
 
-This can be in relation to the team, the way of working, the technologies used, etc. Anything that needs to be highlighted!
+The structure of the presentation needs to be as follows:
 
-## 2. (QA) Theory
+- Introduction: Introduce the team, technologies used, showing the UX of the frontend
+- Technical accomplishments: Technologies used, what were some of the technological challenges and how did you solve them. The challenge here is to make it as specific as possible. Choose 1 or 2 examples in the application. Ask your mentor for help if needed.
+- Social accomplishments: how did you work in groups, what worked well and what didn’t, what were some of the challenges in the project? Again, please be as specific as possible!
 
-This week for the QA theory we are going to talk about abbreviations in testing. We will start with development methods that teams can use to approach testing. You may have naturally already gravitated to one way of working, but now you will learn the name of it. We will also introduce you to the ISTBQ, which is the organisation that provides the standard in testing.
+After the presentation, you will probably get some questions about how it went, what worked and what did not, etc. Anyone in the class can answer these questions, not just the people doing the presentation!
 
-### 2.1 BDD/TDD/ATDD
+## 3. (QA) Theory
+
+This week we will have some extra QA theory and we are going to talk about abbreviations in testing. We will start with development methods that teams can use to approach testing. You may have naturally already gravitated to one way of working, but now you will learn the name of it. We will also look into
+
+### 3.1 BDD/TDD/ATDD
 
 In the agile world, testers need to collaborate and work together with developers, non-technical roles (like Product Owners and Business Analysts) and provide continuous feedback. Behavior-Driven Development (BDD), Test-Driven Development (TDD) and Acceptance Test-Driven Development (TDD) are different testing methods or practices adopted by the team to facilitate the collaboration and continuous feedback. Each method has benefits and serves a specific purpose.
 
@@ -44,20 +54,14 @@ More details on BDD, TDD and ATDD covered by the following resources:
 
 Have a think about how the team is working at the moment and see if it is applying one of these methods.
 
-### 2.2 ISTQB
+### 3.2 Automation best practices
 
-From _Wikipedia_
+Now that you have written some automation tests you will have probably need to refactor some things as well just like you would do during your curriculum as a developer. Look up the following terms and see if you can apply it to your test suite:
 
-> The International Software Testing Qualifications Board (ISTQB) is a software testing certification board that operates internationally. ISTQB Certified Tester is a standardized qualification for software testers and the certification is offered by the ISTQB.
+- Page objects
+- Fixers
+- Parametrised tests
 
-> ISTQB streams focus on:
->
-> - Core – these modules correspond to the “historical” ISTQB certifications
-> - Agile – these modules address testing practices specifically for the Agile SDLC
-> - Specialist – these modules are new in the ISTQB product portfolio and address specific
+## 4. General assessment
 
-ISTQB Foundation Level syllabus stated the principles of software testing, read about them here :
-
-- [7 Principles of Software Testing](https://www.toolsqa.com/software-testing/principles-of-software-testing/)
-
-This site also offers a lot of other information about testing from the standard! So in the next few weeks/months, make sure to keep going back to see what else is out there that is out of scope for our curriculum.
+This week you will also get a post in the class channel to schedule a time for your general assessment. Read more about it in the [week7 tasks](../week7/MAKEME.md). If no post is up, then poke the Education Director!

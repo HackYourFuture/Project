@@ -59,7 +59,7 @@ For more information, have a look at the [general assessment section](./week7/MA
 
 ## Mentors
 
-For more information on what is required from the mentors for this module, please have a look at the [mentors section](./mentor/README.md)
+For more information on what is required from the mentors for this module, please have a look at the [mentors section](./mentors/README.md)
 
 _The HackYourFuture curriculum is subject to CC BY copyright. This means you can freely use our materials, but just make sure to give us credit for it :)_
 

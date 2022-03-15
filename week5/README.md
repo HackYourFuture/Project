@@ -1,4 +1,4 @@
-# Week 6
+# Week 5
 
 ## Sunday meeting
 

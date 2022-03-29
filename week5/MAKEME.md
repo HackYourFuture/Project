@@ -30,8 +30,8 @@ Everyone who has helped you on the project would love to see what it has become 
 
 The structure of the presentation needs to be as follows:
 
-- Introduction: Introduce the team, technologies used, showing the UX of the frontend
-- Technical accomplishments: Technologies used, what were some of the technological challenges and how did you solve them. The challenge here is to make it as specific as possible. Choose 1 or 2 examples in the application. Ask your mentor for help if needed.
+- Demo: Introduce the team, showing the UX of the frontend
+- Technical accomplishments: Show the technologies used, what were some of the technological challenges and how did you solve them. The challenge here is to make it as specific as possible. Choose 1 or 2 examples in the application. Ask your mentor for help if needed.
 - Social accomplishments: how did you work in groups, what worked well and what didn’t, what were some of the challenges in the project? Again, please be as specific as possible!
 
 After the presentation, you will probably get some questions about how it went, what worked and what did not, etc. Anyone in the class can answer these questions, not just the people doing the presentation!

@@ -10,7 +10,6 @@ Below you will find an overview of what is expected of you every week. The weeks
 | 2.     | -                          | Plan weekly QA meeting for questions     |
 | 3.     | -                          | Plan weekly QA meeting for questions     |
 | 4.     | -                          | Plan weekly QA meeting for questions     |
-| 5.     | -                          | -                                        |
 
 Below we will explain each task in more detail.
 

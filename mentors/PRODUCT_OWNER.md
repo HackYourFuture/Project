@@ -4,13 +4,12 @@ As the product owner, it is your role to decide on the priority of the different
 
 Below you will find an overview of what is expected of you every week. The weeks start on Sunday with a full team meeting and last until the next Saturday.
 
-| Week # | Sunday meeting                                      | Week responsibilities                   |
-| ------ | --------------------------------------------------- | --------------------------------------- |
-| 1.     | Guide team through initial user stories             | Support the team in making user stories |
-| 2.     | Determine priority                                  | -                                       |
-| 3.     | Determine priority / validate user demos            | -                                       |
-| 4.     | Determine priority / validate user demos            | -                                       |
-| 5.     | Determine final issues to fix / validate user demos | -                                       |
+| Week # | Sunday meeting                           | Week responsibilities                   |
+| ------ | ---------------------------------------- | --------------------------------------- |
+| 1.     | Guide team through initial user stories  | Support the team in making user stories |
+| 2.     | Determine priority                       | -                                       |
+| 3.     | Determine priority / validate user demos | -                                       |
+| 4.     | Determine priority / validate user demos | -                                       |
 
 Below we will explain each task in more detail.
 

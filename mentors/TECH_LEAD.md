@@ -10,7 +10,6 @@ Below you will find an overview of what is expected of you every week. The weeks
 | 2.     | Help with technical refinement | Plan weekly tech meeting for questions / Manage code reviews    |
 | 3.     | Help with technical refinement | Plan weekly tech meeting for questions / Supervise code reviews |
 | 4.     | Help with technical refinement | Plan weekly tech meeting for questions                          |
-| 5.     | -                              | -                                                               |
 
 Below we will explain each task in more detail.
 

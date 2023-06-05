@@ -10,7 +10,6 @@ Below you will find an overview of what is expected of you every week. The weeks
 | 2.     | Facilitate meeting: [Agenda](/week2/README.md) | -                     |
 | 3.     | Facilitate meeting: [Agenda](/week3/README.md) | -                     |
 | 4.     | Facilitate meeting: [Agenda](/week4/README.md) | -                     |
-| 5.     | Facilitate meeting: [Agenda](/week5/README.md) | -                     |
 
 Below we will explain each task in more detail.
 
